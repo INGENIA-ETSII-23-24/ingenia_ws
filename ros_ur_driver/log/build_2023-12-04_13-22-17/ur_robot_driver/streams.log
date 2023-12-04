@@ -1,0 +1,196 @@
+[0.197s] Invoking command in '/home/pedro/workspace/ros_ur_driver/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:/home/pedro/workspace/ros_ur_driver/install/ur_description:/home/pedro/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/pedro/workspace/ros_ur_driver/install/ur_moveit_config:/home/pedro/tfg_ws/install/tfg_repository:/home/pedro/aerostack2_ws/install/aerostack2:/home/pedro/aerostack2_ws/install/as2_usb_camera_interface:/home/pedro/aerostack2_ws/install/as2_state_estimator:/home/pedro/aerostack2_ws/install/as2_realsense_interface:/home/pedro/aerostack2_ws/install/as2_platform_tello:/home/pedro/aerostack2_ws/install/as2_platform_ign_gazebo:/home/pedro/aerostack2_ws/install/as2_platform_dji_osdk:/home/pedro/aerostack2_ws/install/as2_platform_crazyflie:/home/pedro/aerostack2_ws/install/as2_motion_controller:/home/pedro/aerostack2_ws/install/as2_behaviors_trajectory_generation:/home/pedro/aerostack2_ws/install/as2_behaviors_motion:/home/pedro/aerostack2_ws/install/as2_motion_reference_handlers:/home/pedro/aerostack2_ws/install/as2_ign_gazebo_assets:/home/pedro/aerostack2_ws/install/as2_behaviors_platform:/home/pedro/aerostack2_ws/install/as2_behaviors_perception:/home/pedro/aerostack2_ws/install/as2_behavior_tree:/home/pedro/aerostack2_ws/install/as2_behavior:/home/pedro/aerostack2_ws/install/as2_alphanumeric_viewer:/home/pedro/aerostack2_ws/install/as2_core:/home/pedro/aerostack2_ws/install/as2_msgs:/home/pedro/aerostack2_ws/install/as2_gazebo_classic_assets:/home/pedro/aerostack2_ws/install/as2_cli:/home/pedro/aerostack2_ws/install/as2_keyboard_teleoperation:/home/pedro/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/pedro/workspace/ros_ur_driver/install/ur_robot_driver
+[0.245s] -- The C compiler identification is GNU 11.4.0
+[0.299s] -- The CXX compiler identification is GNU 11.4.0
+[0.306s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.375s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.375s] -- Detecting C compile features
+[0.376s] -- Detecting C compile features - done
+[0.379s] -- Detecting CXX compiler ABI info
+[0.451s] -- Detecting CXX compiler ABI info - done
+[0.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.460s] -- Detecting CXX compile features
+[0.460s] -- Detecting CXX compile features - done
+[0.465s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.641s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.747s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.757s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.762s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.762s] -- BACKWARD_HAS_UNWIND=1
+[0.762s] -- BACKWARD_HAS_BACKTRACE=0
+[0.763s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.763s] -- BACKWARD_HAS_DW=1
+[0.763s] -- BACKWARD_HAS_BFD=0
+[0.763s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.767s] -- Found controller_manager: 2.35.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.830s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.838s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.850s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.897s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.633s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.638s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.738s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.761s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.810s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.824s] -- Looking for pthread.h
+[1.906s] -- Looking for pthread.h - found
+[1.906s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.996s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.997s] -- Found Threads: TRUE  
+[2.693s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[2.700s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.724s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.745s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.747s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.747s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.057s] -- Found ur_dashboard_msgs: 2.2.9 (/home/pedro/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[5.605s] -- Found ur_controllers: 2.2.9 (/home/pedro/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake)
+[5.884s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.446s] -- Found ur_description: 2.1.1 (/home/pedro/workspace/ros_ur_driver/install/ur_description/share/ur_description/cmake)
+[6.457s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[6.464s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.489s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.495s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.495s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.495s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.495s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.516s] -- Found PythonExtra: .so  
+[6.517s] -- Configuring done
+[6.603s] -- Generating done
+[6.605s] -- Build files have been written to: /home/pedro/workspace/ros_ur_driver/build/ur_robot_driver
+[6.616s] Invoked command in '/home/pedro/workspace/ros_ur_driver/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:/home/pedro/workspace/ros_ur_driver/install/ur_description:/home/pedro/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/pedro/workspace/ros_ur_driver/install/ur_moveit_config:/home/pedro/tfg_ws/install/tfg_repository:/home/pedro/aerostack2_ws/install/aerostack2:/home/pedro/aerostack2_ws/install/as2_usb_camera_interface:/home/pedro/aerostack2_ws/install/as2_state_estimator:/home/pedro/aerostack2_ws/install/as2_realsense_interface:/home/pedro/aerostack2_ws/install/as2_platform_tello:/home/pedro/aerostack2_ws/install/as2_platform_ign_gazebo:/home/pedro/aerostack2_ws/install/as2_platform_dji_osdk:/home/pedro/aerostack2_ws/install/as2_platform_crazyflie:/home/pedro/aerostack2_ws/install/as2_motion_controller:/home/pedro/aerostack2_ws/install/as2_behaviors_trajectory_generation:/home/pedro/aerostack2_ws/install/as2_behaviors_motion:/home/pedro/aerostack2_ws/install/as2_motion_reference_handlers:/home/pedro/aerostack2_ws/install/as2_ign_gazebo_assets:/home/pedro/aerostack2_ws/install/as2_behaviors_platform:/home/pedro/aerostack2_ws/install/as2_behaviors_perception:/home/pedro/aerostack2_ws/install/as2_behavior_tree:/home/pedro/aerostack2_ws/install/as2_behavior:/home/pedro/aerostack2_ws/install/as2_alphanumeric_viewer:/home/pedro/aerostack2_ws/install/as2_core:/home/pedro/aerostack2_ws/install/as2_msgs:/home/pedro/aerostack2_ws/install/as2_gazebo_classic_assets:/home/pedro/aerostack2_ws/install/as2_cli:/home/pedro/aerostack2_ws/install/as2_keyboard_teleoperation:/home/pedro/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/pedro/workspace/ros_ur_driver/install/ur_robot_driver
+[6.617s] Invoking command in '/home/pedro/workspace/ros_ur_driver/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:/home/pedro/workspace/ros_ur_driver/install/ur_description:/home/pedro/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/pedro/workspace/ros_ur_driver/install/ur_moveit_config:/home/pedro/tfg_ws/install/tfg_repository:/home/pedro/aerostack2_ws/install/aerostack2:/home/pedro/aerostack2_ws/install/as2_usb_camera_interface:/home/pedro/aerostack2_ws/install/as2_state_estimator:/home/pedro/aerostack2_ws/install/as2_realsense_interface:/home/pedro/aerostack2_ws/install/as2_platform_tello:/home/pedro/aerostack2_ws/install/as2_platform_ign_gazebo:/home/pedro/aerostack2_ws/install/as2_platform_dji_osdk:/home/pedro/aerostack2_ws/install/as2_platform_crazyflie:/home/pedro/aerostack2_ws/install/as2_motion_controller:/home/pedro/aerostack2_ws/install/as2_behaviors_trajectory_generation:/home/pedro/aerostack2_ws/install/as2_behaviors_motion:/home/pedro/aerostack2_ws/install/as2_motion_reference_handlers:/home/pedro/aerostack2_ws/install/as2_ign_gazebo_assets:/home/pedro/aerostack2_ws/install/as2_behaviors_platform:/home/pedro/aerostack2_ws/install/as2_behaviors_perception:/home/pedro/aerostack2_ws/install/as2_behavior_tree:/home/pedro/aerostack2_ws/install/as2_behavior:/home/pedro/aerostack2_ws/install/as2_alphanumeric_viewer:/home/pedro/aerostack2_ws/install/as2_core:/home/pedro/aerostack2_ws/install/as2_msgs:/home/pedro/aerostack2_ws/install/as2_gazebo_classic_assets:/home/pedro/aerostack2_ws/install/as2_cli:/home/pedro/aerostack2_ws/install/as2_keyboard_teleoperation:/home/pedro/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pedro/workspace/ros_ur_driver/build/ur_robot_driver -- -j12 -l12
+[6.672s] [ 13%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[6.672s] [ 13%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[6.673s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[6.673s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o[0m
+[6.673s] [ 53%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[6.673s] [ 60%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[6.673s] [ 60%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[6.673s] [ 60%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[6.673s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[6.673s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[6.679s] [ 66%] Built target ament_cmake_python_copy_ur_robot_driver
+[7.176s] running egg_info
+[7.177s] creating ur_robot_driver.egg-info
+[7.177s] writing ur_robot_driver.egg-info/PKG-INFO
+[7.177s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[7.177s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[7.178s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[7.182s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[7.183s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[7.231s] [ 66%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[12.268s] [ 73%] [32m[1mLinking CXX executable ur_ros2_control_node[0m
+[12.487s] [ 73%] Built target ur_ros2_control_node
+[12.745s] [01m[K/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ur_robot_driver::URPositionHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[12.745s] [01m[K/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:432:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid urcl::UrDriver::setKeepaliveCount(uint32_t)[m[K’ is deprecated: Set keepaliveCount is deprecated, instead set the robot receive timeout directly in the write commands. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.745s]   432 |     [01;35m[Kur_driver_->setKeepaliveCount(keep_alive_count)[m[K;
+[12.745s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[12.745s] In file included from [01m[K/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp:55[m[K,
+[12.745s]                  from [01m[K/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:50[m[K:
+[12.746s] [01m[K/opt/ros/humble/include/ur_client_library/ur/ur_driver.h:461:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.746s]   461 |   [01;36m[KsetKeepaliveCount[m[K(const uint32_t count);
+[12.746s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[20.098s] [ 80%] [32m[1mLinking CXX executable urscript_interface[0m
+[20.236s] [ 86%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[20.349s] [ 86%] Built target urscript_interface
+[20.472s] [ 86%] Built target controller_stopper_node
+[23.045s] [ 93%] [32m[1mLinking CXX executable dashboard_client[0m
+[23.276s] [ 93%] Built target dashboard_client
+[24.390s] [100%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[24.610s] [100%] Built target ur_robot_driver_plugin
+[24.619s] Invoked command in '/home/pedro/workspace/ros_ur_driver/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:/home/pedro/workspace/ros_ur_driver/install/ur_description:/home/pedro/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/pedro/workspace/ros_ur_driver/install/ur_moveit_config:/home/pedro/tfg_ws/install/tfg_repository:/home/pedro/aerostack2_ws/install/aerostack2:/home/pedro/aerostack2_ws/install/as2_usb_camera_interface:/home/pedro/aerostack2_ws/install/as2_state_estimator:/home/pedro/aerostack2_ws/install/as2_realsense_interface:/home/pedro/aerostack2_ws/install/as2_platform_tello:/home/pedro/aerostack2_ws/install/as2_platform_ign_gazebo:/home/pedro/aerostack2_ws/install/as2_platform_dji_osdk:/home/pedro/aerostack2_ws/install/as2_platform_crazyflie:/home/pedro/aerostack2_ws/install/as2_motion_controller:/home/pedro/aerostack2_ws/install/as2_behaviors_trajectory_generation:/home/pedro/aerostack2_ws/install/as2_behaviors_motion:/home/pedro/aerostack2_ws/install/as2_motion_reference_handlers:/home/pedro/aerostack2_ws/install/as2_ign_gazebo_assets:/home/pedro/aerostack2_ws/install/as2_behaviors_platform:/home/pedro/aerostack2_ws/install/as2_behaviors_perception:/home/pedro/aerostack2_ws/install/as2_behavior_tree:/home/pedro/aerostack2_ws/install/as2_behavior:/home/pedro/aerostack2_ws/install/as2_alphanumeric_viewer:/home/pedro/aerostack2_ws/install/as2_core:/home/pedro/aerostack2_ws/install/as2_msgs:/home/pedro/aerostack2_ws/install/as2_gazebo_classic_assets:/home/pedro/aerostack2_ws/install/as2_cli:/home/pedro/aerostack2_ws/install/as2_keyboard_teleoperation:/home/pedro/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pedro/workspace/ros_ur_driver/build/ur_robot_driver -- -j12 -l12
+[24.662s] Invoking command in '/home/pedro/workspace/ros_ur_driver/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:/home/pedro/workspace/ros_ur_driver/install/ur_description:/home/pedro/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/pedro/workspace/ros_ur_driver/install/ur_moveit_config:/home/pedro/tfg_ws/install/tfg_repository:/home/pedro/aerostack2_ws/install/aerostack2:/home/pedro/aerostack2_ws/install/as2_usb_camera_interface:/home/pedro/aerostack2_ws/install/as2_state_estimator:/home/pedro/aerostack2_ws/install/as2_realsense_interface:/home/pedro/aerostack2_ws/install/as2_platform_tello:/home/pedro/aerostack2_ws/install/as2_platform_ign_gazebo:/home/pedro/aerostack2_ws/install/as2_platform_dji_osdk:/home/pedro/aerostack2_ws/install/as2_platform_crazyflie:/home/pedro/aerostack2_ws/install/as2_motion_controller:/home/pedro/aerostack2_ws/install/as2_behaviors_trajectory_generation:/home/pedro/aerostack2_ws/install/as2_behaviors_motion:/home/pedro/aerostack2_ws/install/as2_motion_reference_handlers:/home/pedro/aerostack2_ws/install/as2_ign_gazebo_assets:/home/pedro/aerostack2_ws/install/as2_behaviors_platform:/home/pedro/aerostack2_ws/install/as2_behaviors_perception:/home/pedro/aerostack2_ws/install/as2_behavior_tree:/home/pedro/aerostack2_ws/install/as2_behavior:/home/pedro/aerostack2_ws/install/as2_alphanumeric_viewer:/home/pedro/aerostack2_ws/install/as2_core:/home/pedro/aerostack2_ws/install/as2_msgs:/home/pedro/aerostack2_ws/install/as2_gazebo_classic_assets:/home/pedro/aerostack2_ws/install/as2_cli:/home/pedro/aerostack2_ws/install/as2_keyboard_teleoperation:/home/pedro/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pedro/workspace/ros_ur_driver/build/ur_robot_driver
+[24.669s] -- Install configuration: "Release"
+[24.670s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+[24.670s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[24.671s] -- Set runtime path of "/home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client" to ""
+[24.671s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[24.671s] -- Set runtime path of "/home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node" to ""
+[24.671s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[24.672s] -- Set runtime path of "/home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node" to ""
+[24.672s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[24.673s] -- Set runtime path of "/home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface" to ""
+[24.673s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[24.674s] -- Set runtime path of "/home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/libur_robot_driver_plugin.so" to ""
+[24.674s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include
+[24.674s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver
+[24.674s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[24.674s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[24.675s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[24.675s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[24.675s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[24.675s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[24.675s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources
+[24.675s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[24.675s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[24.675s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[24.675s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[24.675s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[24.675s] -- Up-to-date: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include
+[24.675s] -- Up-to-date: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver
+[24.676s] -- Up-to-date: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[24.676s] -- Up-to-date: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[24.676s] -- Up-to-date: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[24.676s] -- Up-to-date: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[24.676s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[24.676s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[24.676s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info
+[24.676s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/PKG-INFO
+[24.676s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/top_level.txt
+[24.676s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/dependency_links.txt
+[24.676s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/SOURCES.txt
+[24.676s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver
+[24.677s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[24.709s] Listing '/home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[24.710s] Compiling '/home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py'...
+[24.713s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[24.713s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[24.714s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[24.714s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config
+[24.714s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[24.714s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[24.714s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[24.714s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[24.714s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[24.714s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[24.715s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[24.716s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[24.717s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[24.717s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[24.717s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[24.717s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[24.717s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[24.717s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.717s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[24.717s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.717s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[24.718s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[24.718s] -- Installing: /home/pedro/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[24.719s] Invoked command in '/home/pedro/workspace/ros_ur_driver/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers:/home/pedro/workspace/ros_ur_driver/install/ur_description:/home/pedro/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/pedro/workspace/ros_ur_driver/install/ur_moveit_config:/home/pedro/tfg_ws/install/tfg_repository:/home/pedro/aerostack2_ws/install/aerostack2:/home/pedro/aerostack2_ws/install/as2_usb_camera_interface:/home/pedro/aerostack2_ws/install/as2_state_estimator:/home/pedro/aerostack2_ws/install/as2_realsense_interface:/home/pedro/aerostack2_ws/install/as2_platform_tello:/home/pedro/aerostack2_ws/install/as2_platform_ign_gazebo:/home/pedro/aerostack2_ws/install/as2_platform_dji_osdk:/home/pedro/aerostack2_ws/install/as2_platform_crazyflie:/home/pedro/aerostack2_ws/install/as2_motion_controller:/home/pedro/aerostack2_ws/install/as2_behaviors_trajectory_generation:/home/pedro/aerostack2_ws/install/as2_behaviors_motion:/home/pedro/aerostack2_ws/install/as2_motion_reference_handlers:/home/pedro/aerostack2_ws/install/as2_ign_gazebo_assets:/home/pedro/aerostack2_ws/install/as2_behaviors_platform:/home/pedro/aerostack2_ws/install/as2_behaviors_perception:/home/pedro/aerostack2_ws/install/as2_behavior_tree:/home/pedro/aerostack2_ws/install/as2_behavior:/home/pedro/aerostack2_ws/install/as2_alphanumeric_viewer:/home/pedro/aerostack2_ws/install/as2_core:/home/pedro/aerostack2_ws/install/as2_msgs:/home/pedro/aerostack2_ws/install/as2_gazebo_classic_assets:/home/pedro/aerostack2_ws/install/as2_cli:/home/pedro/aerostack2_ws/install/as2_keyboard_teleoperation:/home/pedro/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/workspace/ros_ur_driver/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pedro/workspace/ros_ur_driver/build/ur_robot_driver

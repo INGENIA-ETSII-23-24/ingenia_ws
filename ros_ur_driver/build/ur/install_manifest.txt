@@ -1,0 +1,15 @@
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/environment/ament_prefix_path.sh
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/environment/ament_prefix_path.dsv
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/environment/path.sh
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/environment/path.dsv
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/local_setup.bash
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/local_setup.sh
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/local_setup.zsh
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/local_setup.dsv
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/package.dsv
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ament_index/resource_index/packages/ur
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/cmake/urConfig.cmake
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/cmake/urConfig-version.cmake
+/home/pedro/workspace/ros_ur_driver/install/ur/share/ur/package.xml
