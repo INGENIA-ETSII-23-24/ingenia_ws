@@ -3,7 +3,7 @@ import rclpy
 from rclpy.node import Node
 import numpy as np
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
-from ur_client_library import urcl # Este módulo reemplaza al ur_robot_driver.urscript
+from ur_robot_driver.urscript import get_joint_pose
 
 # Crear una clase para el nodo de ROS2
 class UR10TrajectoryNode(Node):
@@ -33,8 +33,8 @@ class UR10TrajectoryNode(Node):
         if self.index < len(self.points):
             # Obtener el punto actual en forma de pose
             pose = self.points[self.index]
-            # Convertir la pose a joint positions usando la función inverse_kinematics de urcl
-            joint_positions = urcl.inverse_kinematics(pose, 10, 5) # 10 es el modelo del ur10, 5 es la generación del e-Series
+            # Convertir la pose a joint positions usando la función get_joint_pose
+            joint_positions = get_joint_pose(5, pose, 10, 5) # 5 es el índice de la muñeca 3, 10 es el modelo del ur10, 5 es la generación del e-Series
             # Crear un mensaje de tipo JointTrajectoryPoint
             point = JointTrajectoryPoint()
             # Establecer las posiciones de las articulaciones
