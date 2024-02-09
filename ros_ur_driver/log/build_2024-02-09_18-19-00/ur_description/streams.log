@@ -1,0 +1,201 @@
+[0.700s] Invoking command in '/home/alvaro/workspace/ros_ur_driver/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alvaro/ros2_ws/install/ros2controlcli:/home/alvaro/ros2_ws/install/ros2_control_test_nodes:/home/alvaro/dev_ws/install/ros2test:/opt/ros/foxy /usr/bin/cmake /home/alvaro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/alvaro/workspace/ros_ur_driver/install/ur_description
+[0.800s] -- The C compiler identification is GNU 9.4.0
+[0.894s] -- The CXX compiler identification is GNU 9.4.0
+[0.906s] -- Check for working C compiler: /usr/bin/cc
+[1.036s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.037s] -- Detecting C compiler ABI info
+[1.147s] -- Detecting C compiler ABI info - done
+[1.166s] -- Detecting C compile features
+[1.166s] -- Detecting C compile features - done
+[1.170s] -- Check for working CXX compiler: /usr/bin/c++
+[1.310s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.312s] -- Detecting CXX compiler ABI info
+[1.449s] -- Detecting CXX compiler ABI info - done
+[1.470s] -- Detecting CXX compile features
+[1.470s] -- Detecting CXX compile features - done
+[1.479s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.541s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.541s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.019s] -- Configuring done
+[2.022s] -- Generating done
+[2.024s] -- Build files have been written to: /home/alvaro/workspace/ros_ur_driver/build/ur_description
+[2.029s] Invoked command in '/home/alvaro/workspace/ros_ur_driver/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alvaro/ros2_ws/install/ros2controlcli:/home/alvaro/ros2_ws/install/ros2_control_test_nodes:/home/alvaro/dev_ws/install/ros2test:/opt/ros/foxy /usr/bin/cmake /home/alvaro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/alvaro/workspace/ros_ur_driver/install/ur_description
+[2.034s] Invoking command in '/home/alvaro/workspace/ros_ur_driver/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alvaro/ros2_ws/install/ros2controlcli:/home/alvaro/ros2_ws/install/ros2_control_test_nodes:/home/alvaro/dev_ws/install/ros2test:/opt/ros/foxy /usr/bin/cmake --build /home/alvaro/workspace/ros_ur_driver/build/ur_description -- -j12 -l12
+[2.111s] Invoked command in '/home/alvaro/workspace/ros_ur_driver/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alvaro/ros2_ws/install/ros2controlcli:/home/alvaro/ros2_ws/install/ros2_control_test_nodes:/home/alvaro/dev_ws/install/ros2test:/opt/ros/foxy /usr/bin/cmake --build /home/alvaro/workspace/ros_ur_driver/build/ur_description -- -j12 -l12
+[2.186s] Invoking command in '/home/alvaro/workspace/ros_ur_driver/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alvaro/ros2_ws/install/ros2controlcli:/home/alvaro/ros2_ws/install/ros2_control_test_nodes:/home/alvaro/dev_ws/install/ros2test:/opt/ros/foxy /usr/bin/cmake --install /home/alvaro/workspace/ros_ur_driver/build/ur_description
+[2.206s] -- Install configuration: "Release"
+[2.206s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config
+[2.206s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/initial_positions.yaml
+[2.207s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3
+[2.207s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[2.207s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[2.207s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[2.208s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[2.208s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e
+[2.208s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[2.208s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[2.208s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[2.209s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[2.209s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10
+[2.209s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[2.209s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[2.209s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[2.209s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[2.209s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3e
+[2.210s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[2.210s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[2.210s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[2.210s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[2.210s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e
+[2.210s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[2.210s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[2.210s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[2.210s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[2.210s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10e
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/launch
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes
+[2.211s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3
+[2.212s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual
+[2.212s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[2.212s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[2.212s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[2.212s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[2.214s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[2.216s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[2.216s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[2.218s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision
+[2.218s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[2.218s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[2.219s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[2.219s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[2.219s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[2.220s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[2.221s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[2.221s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e
+[2.221s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/visual
+[2.221s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[2.223s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[2.227s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/collision
+[2.227s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[2.227s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[2.227s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10
+[2.227s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual
+[2.227s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[2.231s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[2.233s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[2.238s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[2.241s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[2.241s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[2.242s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[2.242s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision
+[2.242s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[2.242s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[2.242s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[2.242s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[2.242s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[2.242s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[2.242s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[2.243s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e
+[2.243s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual
+[2.243s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[2.243s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[2.245s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[2.247s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[2.248s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[2.252s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[2.253s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[2.255s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision
+[2.255s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[2.255s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[2.255s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[2.255s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[2.256s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[2.256s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[2.256s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[2.256s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e
+[2.256s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual
+[2.257s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[2.258s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[2.259s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[2.262s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[2.262s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[2.266s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[2.266s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[2.269s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision
+[2.269s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[2.269s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[2.270s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[2.270s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[2.270s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[2.270s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[2.270s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[2.270s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e
+[2.270s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual
+[2.271s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[2.271s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[2.275s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[2.277s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[2.277s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[2.281s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[2.282s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[2.284s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision
+[2.285s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[2.285s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[2.286s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[2.286s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[2.288s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[2.288s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[2.289s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[2.289s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5
+[2.290s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual
+[2.291s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[2.291s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[2.292s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[2.292s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[2.293s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[2.294s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[2.295s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[2.296s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision
+[2.296s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[2.297s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[2.298s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[2.298s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[2.299s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[2.300s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[2.300s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[2.300s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/rviz
+[2.300s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[2.301s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf
+[2.301s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[2.301s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/inc
+[2.301s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[2.301s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[2.301s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[2.302s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[2.302s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/mirobotUR.urdf
+[2.302s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[2.302s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[2.302s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[2.303s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[2.303s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/environment/path.sh
+[2.303s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/environment/path.dsv
+[2.304s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/local_setup.bash
+[2.304s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/local_setup.sh
+[2.304s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/local_setup.zsh
+[2.305s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/local_setup.dsv
+[2.305s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.dsv
+[2.306s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[2.307s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[2.307s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[2.307s] -- Installing: /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.xml
+[2.467s] Invoked command in '/home/alvaro/workspace/ros_ur_driver/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alvaro/ros2_ws/install/ros2controlcli:/home/alvaro/ros2_ws/install/ros2_control_test_nodes:/home/alvaro/dev_ws/install/ros2test:/opt/ros/foxy /usr/bin/cmake --install /home/alvaro/workspace/ros_ur_driver/build/ur_description

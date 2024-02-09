@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/alvaro/workspace/ros_ur_driver/build/ur_robot_driver/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_cb2db/fast && /usr/bin/make -f CMakeFiles/cmTC_cb2db.dir/build.make CMakeFiles/cmTC_cb2db.dir/build
+Run Build Command(s):/usr/bin/make cmTC_45a14/fast && /usr/bin/make -f CMakeFiles/cmTC_45a14.dir/build.make CMakeFiles/cmTC_45a14.dir/build
 make[1]: se entra en el directorio '/home/alvaro/workspace/ros_ur_driver/build/ur_robot_driver/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cb2db.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_cb2db.dir/src.c.o   -c /home/alvaro/workspace/ros_ur_driver/build/ur_robot_driver/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_cb2db
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb2db.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_cb2db.dir/src.c.o  -o cmTC_cb2db 
-/usr/bin/ld: CMakeFiles/cmTC_cb2db.dir/src.c.o: en la función `main':
+Building C object CMakeFiles/cmTC_45a14.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_45a14.dir/src.c.o   -c /home/alvaro/workspace/ros_ur_driver/build/ur_robot_driver/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_45a14
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45a14.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_45a14.dir/src.c.o  -o cmTC_45a14 
+/usr/bin/ld: CMakeFiles/cmTC_45a14.dir/src.c.o: en la función `main':
 src.c:(.text+0x46): referencia a `pthread_create' sin definir
 /usr/bin/ld: src.c:(.text+0x52): referencia a `pthread_detach' sin definir
 /usr/bin/ld: src.c:(.text+0x63): referencia a `pthread_join' sin definir
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_cb2db.dir/build.make:87: cmTC_cb2db] Error 1
+make[1]: *** [CMakeFiles/cmTC_45a14.dir/build.make:87: cmTC_45a14] Error 1
 make[1]: se sale del directorio '/home/alvaro/workspace/ros_ur_driver/build/ur_robot_driver/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_cb2db/fast] Error 2
+make: *** [Makefile:121: cmTC_45a14/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/alvaro/workspace/ros_ur_driver/build/ur_robot_driver/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_7e347/fast && /usr/bin/make -f CMakeFiles/cmTC_7e347.dir/build.make CMakeFiles/cmTC_7e347.dir/build
+Run Build Command(s):/usr/bin/make cmTC_1cadf/fast && /usr/bin/make -f CMakeFiles/cmTC_1cadf.dir/build.make CMakeFiles/cmTC_1cadf.dir/build
 make[1]: se entra en el directorio '/home/alvaro/workspace/ros_ur_driver/build/ur_robot_driver/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7e347.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7e347.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7e347
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e347.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7e347.dir/CheckFunctionExists.c.o  -o cmTC_7e347  -lpthreads 
+Building C object CMakeFiles/cmTC_1cadf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1cadf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1cadf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cadf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1cadf.dir/CheckFunctionExists.c.o  -o cmTC_1cadf  -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_7e347.dir/build.make:87: cmTC_7e347] Error 1
+make[1]: *** [CMakeFiles/cmTC_1cadf.dir/build.make:87: cmTC_1cadf] Error 1
 make[1]: se sale del directorio '/home/alvaro/workspace/ros_ur_driver/build/ur_robot_driver/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_7e347/fast] Error 2
+make: *** [Makefile:121: cmTC_1cadf/fast] Error 2
 
 
 
