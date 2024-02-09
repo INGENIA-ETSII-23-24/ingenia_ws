@@ -21,8 +21,13 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/alvaro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver/include"
+  "/home/alvaro/ros2_ws/install/controller_manager/include"
+  "/home/alvaro/ros2_ws/install/controller_interface/include"
+  "/home/alvaro/ros2_ws/install/hardware_interface/include"
   "/home/alvaro/workspace/ros_ur_driver/install/ur_dashboard_msgs/include"
+  "/home/alvaro/ros2_ws/install/controller_manager_msgs/include"
   "/opt/ros/foxy/include"
+  "/home/alvaro/ros2_ws/install/control_msgs/include"
   )
 
 # Targets to which this target links.

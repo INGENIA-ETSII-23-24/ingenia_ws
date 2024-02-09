@@ -23,8 +23,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/eigen3"
   "/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/../../../../../include"
   "/home/alvaro/workspace/ros_ur_driver/install/ur_robot_driver/include"
+  "/home/alvaro/ros2_ws/install/controller_manager/include"
+  "/home/alvaro/ros2_ws/install/controller_interface/include"
+  "/home/alvaro/ros2_ws/install/hardware_interface/include"
   "/opt/ros/foxy/include"
   "/home/alvaro/workspace/ros_ur_driver/install/ur_dashboard_msgs/include"
+  "/home/alvaro/ros2_ws/install/controller_manager_msgs/include"
+  "/home/alvaro/ros2_ws/install/control_msgs/include"
   )
 
 # Targets to which this target links.

@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_calibration/calibration_correction")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_calibration/calibration_correction"
-         OLD_RPATH "/home/alvaro/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/alvaro/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/opt/ros/foxy/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/alvaro/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/alvaro/ros2_ws/install/controller_manager/lib:/home/alvaro/ros2_ws/install/controller_interface/lib:/home/alvaro/ros2_ws/install/controller_manager_msgs/lib:/home/alvaro/ros2_ws/install/hardware_interface/lib:/home/alvaro/ros2_ws/install/control_msgs/lib:/home/alvaro/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/opt/ros/foxy/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_calibration/calibration_correction")
