@@ -13,6 +13,7 @@
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur_dashboard_client.launch.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/prueba2.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/test_scaled_joint_trajectory_controller.launch.py
+/home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/robot_real.launch.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/test_joint_trajectory_controller.launch.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur3e.launch.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur5.launch.py

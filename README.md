@@ -20,3 +20,7 @@ ros2 launch ur_bringup simulacion_robot.launch.py
 ```
 ros2 launch ur_bringup robot_real.launch.py 
 ```
+## Launch the point reader
+```
+ros2 run py_srvcli prueba 
+```
