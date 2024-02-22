@@ -23,6 +23,7 @@
 /home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur5.launch.py
 /home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur3.launch.py
 /home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/test_trayectoria.launch.py
+/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/prueba_git.txt
 /home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/lanzar_simulacion.launch.py
 /home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur5e.launch.py
 /home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/lanzar_trayectoria.launch.py

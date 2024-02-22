@@ -1,0 +1,653 @@
+[0.979s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.979s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f05fdf84fa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f05fe3d3340>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f05fe3d3340>>)
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.022s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.022s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.022s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adela/workspace/ros_ur_driver'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ros'
+[1.040s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ros']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ros'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'cmake'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore_ament_install'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_pkg']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_pkg'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_meta']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_meta'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ros']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ros'
+[1.044s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur' with type 'ros.ament_cmake' and name 'ur'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[1.045s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[1.048s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[1.050s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[1.052s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[1.053s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[1.056s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[1.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/adela/workspace/ros_ur_driver/install
+[1.200s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 349 installed packages in /opt/ros/humble
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target' from command line to 'None'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.294s] DEBUG:colcon.colcon_core.verb:Building package 'ur_dashboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs', 'merge_install': False, 'path': '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.310s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adela/workspace/ros_ur_driver/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adela/workspace/ros_ur_driver/install/ur_description', 'merge_install': False, 'path': '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Description', 'symlink_install': False, 'test_result_base': None}
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.335s] DEBUG:colcon.colcon_core.verb:Building package 'ur_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adela/workspace/ros_ur_driver/build/ur_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adela/workspace/ros_ur_driver/install/ur_controllers', 'merge_install': False, 'path': '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers', 'symlink_install': False, 'test_result_base': None}
+[1.350s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.351s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config', 'merge_install': False, 'path': '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[1.365s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.365s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target' from command line to 'None'
+[1.365s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.365s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.365s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.365s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.365s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.365s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.366s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.366s] DEBUG:colcon.colcon_core.verb:Building package 'ur_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adela/workspace/ros_ur_driver/build/ur_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adela/workspace/ros_ur_driver/install/ur_bringup', 'merge_install': False, 'path': '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.380s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver', 'merge_install': False, 'path': '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver', 'symlink_install': False, 'test_result_base': None}
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.393s] DEBUG:colcon.colcon_core.verb:Building package 'ur_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adela/workspace/ros_ur_driver/build/ur_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adela/workspace/ros_ur_driver/install/ur_calibration', 'merge_install': False, 'path': '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration', 'symlink_install': False, 'test_result_base': None}
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target' from command line to 'None'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_cache' from command line to 'False'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_first' from command line to 'False'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_force_configure' from command line to 'False'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'ament_cmake_args' from command line to 'None'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_cmake_args' from command line to 'None'
+[1.408s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.408s] DEBUG:colcon.colcon_core.verb:Building package 'ur' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adela/workspace/ros_ur_driver/build/ur', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adela/workspace/ros_ur_driver/install/ur', 'merge_install': False, 'path': '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur', 'symlink_install': False, 'test_result_base': None}
+[1.420s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.435s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.435s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with build type 'ament_cmake'
+[1.436s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[1.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.453s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.454s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.511s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Description' with build type 'ament_cmake'
+[1.511s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Description'
+[1.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs
+[1.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_description
+[2.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_description
+[2.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_description -- -j2 -l2
+[2.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_description -- -j2 -l2
+[2.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_description
+[2.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[2.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_description
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description' for CMake module files
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description' for CMake config files
+[2.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[2.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[2.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[2.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description/bin'
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description/lib/pkgconfig/ur_description.pc'
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description/lib/python3.10/site-packages'
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description/bin'
+[2.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.ps1'
+[2.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.dsv'
+[2.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.sh'
+[2.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.bash'
+[2.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.zsh'
+[2.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_description/share/colcon-core/packages/ur_description)
+[2.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[2.981s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description' for CMake module files
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description' for CMake config files
+[2.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[3.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[3.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[3.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[3.017s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description/bin'
+[3.018s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description/lib/pkgconfig/ur_description.pc'
+[3.018s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description/lib/python3.10/site-packages'
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_description/bin'
+[3.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.ps1'
+[3.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.dsv'
+[3.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.sh'
+[3.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.bash'
+[3.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.zsh'
+[3.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_description/share/colcon-core/packages/ur_description)
+[3.061s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config' with build type 'ament_cmake'
+[3.061s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config'
+[3.096s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.097s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs
+[3.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs -- -j2 -l2
+[3.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_moveit_config
+[3.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_moveit_config
+[3.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_moveit_config -- -j2 -l2
+[4.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs -- -j2 -l2
+[4.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_moveit_config -- -j2 -l2
+[4.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_moveit_config
+[4.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[4.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_moveit_config
+[4.496s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config' for CMake module files
+[4.497s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config' for CMake config files
+[4.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[4.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[4.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[4.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[4.540s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/bin'
+[4.540s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[4.540s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.10/site-packages'
+[4.541s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/bin'
+[4.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[4.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[4.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[4.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[4.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[4.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[4.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs
+[4.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[4.782s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config' for CMake module files
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config' for CMake config files
+[4.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[4.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[4.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[4.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/bin'
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.10/site-packages'
+[4.819s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/bin'
+[4.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[4.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[4.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[4.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[4.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[4.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[4.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[4.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs
+[4.889s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs' for CMake module files
+[4.890s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs' for CMake config files
+[4.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[4.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[4.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[4.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[4.926s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib'
+[4.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[4.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[4.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[4.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[4.952s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/bin'
+[4.952s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[4.953s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[4.953s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/bin'
+[4.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[4.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[4.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[4.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[4.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[4.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[5.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs' for CMake module files
+[5.517s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs' for CMake config files
+[5.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[5.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[5.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[5.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[5.543s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib'
+[5.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[5.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[5.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[5.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[5.565s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/bin'
+[5.565s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[5.566s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[5.566s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/bin'
+[5.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[5.588s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[5.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[5.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[5.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[5.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[5.594s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers' with build type 'ament_cmake'
+[5.595s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers'
+[5.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_controllers
+[8.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_controllers
+[8.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_controllers -- -j2 -l2
+[8.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_controllers -- -j2 -l2
+[9.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_controllers
+[9.058s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[9.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_controllers
+[9.080s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers' for CMake module files
+[9.080s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers' for CMake config files
+[9.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[9.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[9.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[9.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[9.102s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib'
+[9.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[9.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[9.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[9.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[9.123s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers/bin'
+[9.124s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[9.124s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib/python3.10/site-packages'
+[9.124s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers/bin'
+[9.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.ps1'
+[9.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.dsv'
+[9.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.sh'
+[9.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.bash'
+[9.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.zsh'
+[9.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[9.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[9.242s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers' for CMake module files
+[9.243s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers' for CMake config files
+[9.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[9.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[9.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[9.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[9.266s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib'
+[9.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[9.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[9.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[9.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[9.287s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers/bin'
+[9.288s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[9.288s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib/python3.10/site-packages'
+[9.288s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_controllers/bin'
+[9.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.ps1'
+[9.309s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.dsv'
+[9.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.sh'
+[9.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.bash'
+[9.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.zsh'
+[9.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[9.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver' with build type 'ament_cmake'
+[9.315s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver'
+[9.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.408s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup' with build type 'ament_cmake'
+[9.409s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup'
+[9.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver
+[9.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_bringup': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_bringup
+[9.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_bringup' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_bringup
+[9.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_bringup': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_bringup -- -j2 -l2
+[9.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_bringup' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_bringup -- -j2 -l2
+[9.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_bringup': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_bringup
+[10.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[10.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_bringup' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_bringup
+[10.058s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup' for CMake module files
+[10.059s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup' for CMake config files
+[10.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[10.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[10.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[10.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[10.087s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup/lib'
+[10.087s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup/bin'
+[10.088s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[10.088s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup/lib/python3.10/site-packages'
+[10.089s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup/bin'
+[10.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/package.ps1'
+[10.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/package.dsv'
+[10.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/package.sh'
+[10.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/package.bash'
+[10.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/package.zsh'
+[10.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[10.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[10.205s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup' for CMake module files
+[10.206s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup' for CMake config files
+[10.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[10.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[10.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[10.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[10.237s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup/lib'
+[10.237s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup/bin'
+[10.238s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[10.238s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup/lib/python3.10/site-packages'
+[10.239s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_bringup/bin'
+[10.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/package.ps1'
+[10.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/package.dsv'
+[10.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/package.sh'
+[10.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/package.bash'
+[10.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/package.zsh'
+[10.281s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[17.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver
+[17.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_robot_driver -- -j2 -l2
+[17.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_robot_driver -- -j2 -l2
+[17.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_robot_driver
+[17.947s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[17.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_robot_driver
+[17.974s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver' for CMake module files
+[17.974s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver' for CMake config files
+[17.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[17.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[17.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[17.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[17.998s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib'
+[17.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[18.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[18.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[18.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[18.026s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/bin'
+[18.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[18.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[18.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[18.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[18.049s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[18.050s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib/python3.10/site-packages'
+[18.050s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/bin'
+[18.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[18.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[18.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[18.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[18.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[18.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[18.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[18.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[18.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[18.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[18.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[18.201s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver' for CMake module files
+[18.202s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver' for CMake config files
+[18.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[18.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[18.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[18.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[18.235s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib'
+[18.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[18.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[18.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[18.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[18.255s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/bin'
+[18.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[18.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[18.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[18.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[18.276s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[18.276s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib/python3.10/site-packages'
+[18.276s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/bin'
+[18.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[18.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[18.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[18.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[18.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[18.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[18.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[18.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[18.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[18.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[18.330s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration' with build type 'ament_cmake'
+[18.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration'
+[18.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_calibration
+[25.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_calibration
+[25.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_calibration -- -j2 -l2
+[25.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_calibration -- -j2 -l2
+[25.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_calibration
+[25.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[25.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_calibration
+[25.634s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration' for CMake module files
+[25.635s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration' for CMake config files
+[25.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[25.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[25.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[25.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[25.656s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration/lib'
+[25.656s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration/bin'
+[25.656s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[25.656s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration/lib/python3.10/site-packages'
+[25.657s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration/bin'
+[25.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.ps1'
+[25.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.dsv'
+[25.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.sh'
+[25.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.bash'
+[25.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.zsh'
+[25.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[25.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[25.774s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration' for CMake module files
+[25.775s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration' for CMake config files
+[25.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[25.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[25.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[25.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[25.804s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration/lib'
+[25.804s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration/bin'
+[25.804s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[25.805s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration/lib/python3.10/site-packages'
+[25.805s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur_calibration/bin'
+[25.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.ps1'
+[25.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.dsv'
+[25.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.sh'
+[25.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.bash'
+[25.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.zsh'
+[25.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[25.838s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur' with build type 'ament_cmake'
+[25.838s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur'
+[25.863s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.863s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur
+[26.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur
+[26.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur -- -j2 -l2
+[26.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur -- -j2 -l2
+[26.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur
+[26.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[26.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur
+[26.385s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur' for CMake module files
+[26.386s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur' for CMake config files
+[26.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[26.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[26.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[26.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[26.416s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur/bin'
+[26.416s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur/lib/pkgconfig/ur.pc'
+[26.416s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur/lib/python3.10/site-packages'
+[26.417s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur/bin'
+[26.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.ps1'
+[26.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.dsv'
+[26.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.sh'
+[26.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.bash'
+[26.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.zsh'
+[26.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur/share/colcon-core/packages/ur)
+[26.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[26.507s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur' for CMake module files
+[26.508s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur' for CMake config files
+[26.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[26.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[26.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[26.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[26.536s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur/bin'
+[26.536s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur/lib/pkgconfig/ur.pc'
+[26.536s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur/lib/python3.10/site-packages'
+[26.537s] Level 1:colcon.colcon_core.environment:checking '/home/adela/workspace/ros_ur_driver/install/ur/bin'
+[26.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.ps1'
+[26.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.dsv'
+[26.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.sh'
+[26.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.bash'
+[26.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.zsh'
+[26.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adela/workspace/ros_ur_driver/install/ur/share/colcon-core/packages/ur)
+[26.564s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.566s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.608s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.608s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.609s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.632s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.651s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adela/workspace/ros_ur_driver/install/local_setup.ps1'
+[26.654s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adela/workspace/ros_ur_driver/install/_local_setup_util_ps1.py'
+[26.657s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adela/workspace/ros_ur_driver/install/setup.ps1'
+[26.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adela/workspace/ros_ur_driver/install/local_setup.sh'
+[26.681s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adela/workspace/ros_ur_driver/install/_local_setup_util_sh.py'
+[26.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adela/workspace/ros_ur_driver/install/setup.sh'
+[26.706s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adela/workspace/ros_ur_driver/install/local_setup.bash'
+[26.706s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adela/workspace/ros_ur_driver/install/setup.bash'
+[26.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adela/workspace/ros_ur_driver/install/local_setup.zsh'
+[26.730s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adela/workspace/ros_ur_driver/install/setup.zsh'

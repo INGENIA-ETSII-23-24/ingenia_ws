@@ -1,0 +1,144 @@
+[0.196s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver
+[0.221s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.453s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.472s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.472s] -- BACKWARD_HAS_UNWIND=1
+[0.472s] -- BACKWARD_HAS_BACKTRACE=0
+[0.472s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.472s] -- BACKWARD_HAS_DW=1
+[0.472s] -- BACKWARD_HAS_BFD=0
+[0.473s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.474s] -- Found controller_manager: 2.35.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.508s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.512s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.521s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.546s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.689s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.692s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.849s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.745s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[2.746s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.772s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.778s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.779s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.135s] -- Found ur_dashboard_msgs: 2.2.9 (/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[6.583s] -- Found ur_controllers: 2.2.9 (/home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake)
+[6.947s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[7.684s] -- Found ur_description: 2.1.1 (/home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/cmake)
+[7.685s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[7.685s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.719s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.719s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.719s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.721s] -- Configuring done
+[7.844s] -- Generating done
+[7.849s] -- Build files have been written to: /home/adela/workspace/ros_ur_driver/build/ur_robot_driver
+[7.862s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver
+[7.863s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_robot_driver -- -j2 -l2
+[7.923s] [35m[1mConsolidate compiler generated dependencies of target ur_robot_driver_plugin[0m
+[7.924s] [35m[1mConsolidate compiler generated dependencies of target dashboard_client[0m
+[7.952s] [ 26%] Built target dashboard_client
+[7.966s] [35m[1mConsolidate compiler generated dependencies of target ur_ros2_control_node[0m
+[7.973s] [ 53%] Built target ur_robot_driver_plugin
+[7.989s] [ 66%] Built target ur_ros2_control_node
+[7.992s] [35m[1mConsolidate compiler generated dependencies of target controller_stopper_node[0m
+[8.011s] [35m[1mConsolidate compiler generated dependencies of target urscript_interface[0m
+[8.052s] [ 80%] Built target urscript_interface
+[8.056s] [100%] Built target controller_stopper_node
+[8.093s] [100%] Built target ament_cmake_python_copy_ur_robot_driver
+[8.433s] running egg_info
+[8.435s] writing ur_robot_driver.egg-info/PKG-INFO
+[8.436s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[8.436s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[8.438s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[8.439s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[8.469s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[8.490s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_robot_driver -- -j2 -l2
+[8.558s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_robot_driver
+[8.567s] -- Install configuration: "Release"
+[8.568s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+[8.568s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[8.568s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[8.571s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[8.571s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[8.571s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[8.571s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include
+[8.571s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver
+[8.571s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[8.571s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[8.572s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[8.572s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[8.572s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[8.572s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[8.572s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources
+[8.577s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[8.577s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[8.578s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[8.578s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[8.578s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[8.578s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include
+[8.578s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver
+[8.578s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[8.578s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[8.578s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[8.578s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[8.578s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[8.578s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[8.578s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info
+[8.578s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/dependency_links.txt
+[8.578s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/PKG-INFO
+[8.579s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/top_level.txt
+[8.579s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/SOURCES.txt
+[8.579s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver
+[8.579s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[8.617s] Listing '/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[8.624s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[8.624s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[8.624s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[8.625s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config
+[8.625s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[8.625s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[8.625s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[8.625s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[8.625s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[8.625s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[8.625s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[8.625s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[8.626s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[8.626s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[8.626s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[8.626s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch
+[8.626s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[8.626s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[8.626s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[8.626s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[8.626s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[8.627s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[8.627s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[8.627s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[8.627s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[8.627s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[8.627s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[8.627s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[8.627s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[8.627s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[8.627s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[8.627s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[8.628s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[8.628s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[8.628s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[8.628s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[8.628s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[8.628s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[8.628s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[8.628s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[8.628s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[8.629s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[8.629s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.629s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[8.629s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.644s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[8.644s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[8.644s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[8.644s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_robot_driver

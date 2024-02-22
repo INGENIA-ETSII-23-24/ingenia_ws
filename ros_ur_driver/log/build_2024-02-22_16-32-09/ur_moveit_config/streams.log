@@ -1,0 +1,58 @@
+[0.104s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_moveit_config
+[0.119s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.496s] -- Configuring done
+[0.500s] -- Generating done
+[0.504s] -- Build files have been written to: /home/adela/workspace/ros_ur_driver/build/ur_moveit_config
+[0.509s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_moveit_config
+[0.510s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_moveit_config -- -j2 -l2
+[0.641s] Built target ament_cmake_python_copy_ur_moveit_config
+[1.043s] running egg_info
+[1.048s] writing ur_moveit_config.egg-info/PKG-INFO
+[1.049s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[1.049s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[1.054s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.055s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.120s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[1.140s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_moveit_config -- -j2 -l2
+[1.280s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_moveit_config
+[1.302s] -- Install configuration: "Release"
+[1.303s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config
+[1.303s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[1.304s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[1.305s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[1.305s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[1.306s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/launch
+[1.307s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[1.308s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz
+[1.309s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[1.310s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf
+[1.311s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[1.312s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[1.312s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[1.315s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[1.316s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info
+[1.317s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info/dependency_links.txt
+[1.317s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info/PKG-INFO
+[1.317s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info/top_level.txt
+[1.318s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info/SOURCES.txt
+[1.322s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config
+[1.323s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[1.323s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[1.396s] Listing '/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[1.400s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[1.460s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[1.460s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[1.461s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[1.461s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[1.461s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[1.462s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[1.462s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[1.465s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[1.465s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[1.465s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[1.465s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[1.466s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[1.466s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[1.466s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[1.466s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[1.477s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_moveit_config
