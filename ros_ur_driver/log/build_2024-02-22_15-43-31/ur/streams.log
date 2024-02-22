@@ -1,0 +1,42 @@
+[0.105s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.230s] -- The CXX compiler identification is GNU 11.4.0
+[0.237s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.324s] -- Detecting C compile features
+[0.325s] -- Detecting C compile features - done
+[0.328s] -- Detecting CXX compiler ABI info
+[0.428s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.437s] -- Detecting CXX compile features
+[0.438s] -- Detecting CXX compile features - done
+[0.441s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.673s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.794s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.909s] -- Added test 'lint_cmake' to check CMake code style
+[0.911s] -- Added test 'xmllint' to check XML markup files
+[0.913s] -- Configuring done
+[0.916s] -- Generating done
+[0.917s] -- Build files have been written to: /home/adela/workspace/ros_ur_driver/build/ur
+[0.923s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur
+[0.924s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur -- -j2 -l2
+[0.984s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur -- -j2 -l2
+[1.009s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur
+[1.018s] -- Install configuration: ""
+[1.018s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+[1.019s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+[1.019s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/environment/ament_prefix_path.sh
+[1.020s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/environment/ament_prefix_path.dsv
+[1.020s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/environment/path.sh
+[1.020s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/environment/path.dsv
+[1.021s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/local_setup.bash
+[1.021s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/local_setup.sh
+[1.021s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/local_setup.zsh
+[1.021s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/local_setup.dsv
+[1.022s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.dsv
+[1.022s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ament_index/resource_index/packages/ur
+[1.022s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/cmake/urConfig.cmake
+[1.023s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/cmake/urConfig-version.cmake
+[1.023s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur/share/ur/package.xml
+[1.026s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur

@@ -1,8 +1,8 @@
-# Install script for directory: /home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config
+# Install script for directory: /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pedro/workspace/ros_ur_driver/install/ur_moveit_config")
+  set(CMAKE_INSTALL_PREFIX "/home/adela/workspace/ros_ur_driver/install/ur_moveit_config")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -44,55 +44,55 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE DIRECTORY FILES
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/config"
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/launch"
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/rviz"
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/srdf"
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/config"
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/launch"
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/rviz"
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/srdf"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config/environment" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config/environment" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config/environment" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config/environment" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info" TYPE DIRECTORY FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_python/ur_moveit_config/ur_moveit_config.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info" TYPE DIRECTORY FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_python/ur_moveit_config/ur_moveit_config.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/ur_moveit_config" TYPE DIRECTORY FILES "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/ur_moveit_config/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(
-        COMMAND
-        "/usr/bin/python3.10" "-m" "compileall"
-        "/home/pedro/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config"
-      )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/ur_moveit_config/launch_common.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/ur_moveit_config" TYPE DIRECTORY FILES "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/ur_moveit_config/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3.10" "-m" "compileall"
-        "/home/pedro/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py"
+        "/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config"
       )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/ur_moveit_config/launch_common.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config")
+  execute_process(
+        COMMAND
+        "/usr/bin/python3.10" "-m" "compileall"
+        "/home/adela/workspace/ros_ur_driver/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py"
+      )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -100,7 +100,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config/environment" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config/environment" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -108,42 +108,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config/environment" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config/environment" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_index/share/ament_index/resource_index/packages/ur_moveit_config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_index/share/ament_index/resource_index/packages/ur_moveit_config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config/cmake" TYPE FILE FILES
-    "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_core/ur_moveit_configConfig.cmake"
-    "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_core/ur_moveit_configConfig-version.cmake"
+    "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_core/ur_moveit_configConfig.cmake"
+    "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/ament_cmake_core/ur_moveit_configConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_moveit_config" TYPE FILE FILES "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -154,5 +154,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pedro/workspace/ros_ur_driver/build/ur_moveit_config/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/adela/workspace/ros_ur_driver/build/ur_moveit_config/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

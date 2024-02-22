@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup
+CMAKE_SOURCE_DIR = /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pedro/workspace/ros_ur_driver/build/ur_bringup
+CMAKE_BINARY_DIR = /home/adela/workspace/ros_ur_driver/build/ur_bringup
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/pedro/workspace/ros_ur_driver/build/ur_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup /home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup /home/pedro/workspace/ros_ur_driver/build/ur_bringup /home/pedro/workspace/ros_ur_driver/build/ur_bringup /home/pedro/workspace/ros_ur_driver/build/ur_bringup/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adela/workspace/ros_ur_driver/build/ur_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup /home/adela/workspace/ros_ur_driver/build/ur_bringup /home/adela/workspace/ros_ur_driver/build/ur_bringup /home/adela/workspace/ros_ur_driver/build/ur_bringup/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

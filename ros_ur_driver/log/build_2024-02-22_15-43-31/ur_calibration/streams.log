@@ -1,0 +1,91 @@
+[0.109s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_calibration
+[0.178s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.355s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.360s] -- Detecting CXX compiler ABI info
+[0.456s] -- Detecting CXX compiler ABI info - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.464s] -- Detecting CXX compile features
+[0.465s] -- Detecting CXX compile features - done
+[0.465s] [0mur_calibration: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.468s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.688s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.813s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.868s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.874s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.885s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.903s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.936s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.033s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.037s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.155s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.184s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.243s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.256s] -- Looking for pthread.h
+[1.339s] -- Looking for pthread.h - found
+[1.340s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.436s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.437s] -- Found Threads: TRUE  
+[1.653s] -- Found ur_robot_driver: 2.2.9 (/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/share/ur_robot_driver/cmake)
+[4.101s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.103s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.103s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.120s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[7.125s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.134s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.135s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.214s] -- Configuring done
+[7.306s] -- Generating done
+[7.309s] -- Build files have been written to: /home/adela/workspace/ros_ur_driver/build/ur_calibration
+[7.326s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_calibration
+[7.328s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_calibration -- -j2 -l2
+[7.387s] [  8%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration.cpp.o[0m
+[11.412s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[13.465s] [ 25%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[13.517s] [ 25%] Built target gmock_main
+[13.548s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[21.697s] [ 41%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration_consumer.cpp.o[0m
+[28.867s] [ 50%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[30.922s] [ 58%] [32m[1mLinking CXX static library libcalibration.a[0m
+[31.052s] [ 58%] Built target calibration
+[34.289s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[34.407s] [ 66%] Built target gmock
+[34.433s] [ 75%] [32mBuilding CXX object CMakeFiles/calibration_correction.dir/src/calibration_correction.cpp.o[0m
+[42.217s] [ 83%] [32m[1mLinking CXX executable calibration_correction[0m
+[42.581s] [ 83%] Built target calibration_correction
+[42.606s] [ 91%] [32mBuilding CXX object CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o[0m
+[50.361s] [100%] [32m[1mLinking CXX executable calibration_test[0m
+[50.774s] [100%] Built target calibration_test
+[50.788s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_calibration -- -j2 -l2
+[50.837s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_calibration
+[50.847s] -- Install configuration: "RelWithDebInfo"
+[50.847s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/lib/ur_calibration/calibration_correction
+[50.856s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_calibration/lib/ur_calibration/calibration_correction" to ""
+[50.856s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/include
+[50.856s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/include/ur_calibration
+[50.857s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[50.857s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/include/ur_calibration/calibration.hpp
+[50.857s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/launch
+[50.858s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[50.858s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[50.858s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[50.859s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[50.859s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[50.859s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/environment/path.sh
+[50.860s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[50.860s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/local_setup.bash
+[50.860s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/local_setup.sh
+[50.861s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[50.861s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[50.861s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.dsv
+[50.861s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[50.862s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.862s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.862s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[50.863s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[50.863s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_calibration/share/ur_calibration/package.xml
+[50.866s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_calibration

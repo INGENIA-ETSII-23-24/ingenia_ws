@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs
+CMAKE_SOURCE_DIR = /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pedro/workspace/ros_ur_driver/build/ur_dashboard_msgs
+CMAKE_BINARY_DIR = /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs
 
 # Utility rule file for ament_cmake_python_copy_ur_dashboard_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_ur_dashboard_msgs.dir/compiler_depend
 include CMakeFiles/ament_cmake_python_copy_ur_dashboard_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_ur_dashboard_msgs:
-	/usr/bin/cmake -E copy_directory /home/pedro/workspace/ros_ur_driver/build/ur_dashboard_msgs/rosidl_generator_py/ur_dashboard_msgs /home/pedro/workspace/ros_ur_driver/build/ur_dashboard_msgs/ament_cmake_python/ur_dashboard_msgs/ur_dashboard_msgs
+	/usr/bin/cmake -E copy_directory /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs/rosidl_generator_py/ur_dashboard_msgs /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs/ament_cmake_python/ur_dashboard_msgs/ur_dashboard_msgs
 
 ament_cmake_python_copy_ur_dashboard_msgs: CMakeFiles/ament_cmake_python_copy_ur_dashboard_msgs
 ament_cmake_python_copy_ur_dashboard_msgs: CMakeFiles/ament_cmake_python_copy_ur_dashboard_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_ur_dashboard_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_ur_dashboard_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_ur_dashboard_msgs.dir/depend:
-	cd /home/pedro/workspace/ros_ur_driver/build/ur_dashboard_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs /home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs /home/pedro/workspace/ros_ur_driver/build/ur_dashboard_msgs /home/pedro/workspace/ros_ur_driver/build/ur_dashboard_msgs /home/pedro/workspace/ros_ur_driver/build/ur_dashboard_msgs/CMakeFiles/ament_cmake_python_copy_ur_dashboard_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs/CMakeFiles/ament_cmake_python_copy_ur_dashboard_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_ur_dashboard_msgs.dir/depend
 

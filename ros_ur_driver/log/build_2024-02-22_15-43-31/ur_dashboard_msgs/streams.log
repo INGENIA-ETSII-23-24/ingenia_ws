@@ -1,0 +1,641 @@
+[0.153s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs
+[0.286s] -- The C compiler identification is GNU 11.4.0
+[0.425s] -- The CXX compiler identification is GNU 11.4.0
+[0.442s] -- Detecting C compiler ABI info
+[0.527s] -- Detecting C compiler ABI info - done
+[0.527s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.528s] -- Detecting C compile features
+[0.530s] -- Detecting C compile features - done
+[0.534s] -- Detecting CXX compiler ABI info
+[0.627s] -- Detecting CXX compiler ABI info - done
+[0.630s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.630s] -- Detecting CXX compile features
+[0.630s] -- Detecting CXX compile features - done
+[0.635s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.815s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.954s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.964s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.974s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.039s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.106s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.671s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.890s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.245s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.249s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.291s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.291s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.292s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.292s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.324s] -- Found PythonExtra: .so  
+[2.409s] -- Configuring done
+[2.480s] -- Generating done
+[2.482s] -- Build files have been written to: /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs
+[2.490s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs
+[2.490s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs -- -j2 -l2
+[2.529s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.570s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.269s] [  1%] Built target ur_dashboard_msgs__cpp
+[5.300s] [  1%] Built target ament_cmake_python_copy_ur_dashboard_msgs
+[5.408s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.419s] [  2%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__functions.c.o[0m
+[5.501s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__functions.c.o[0m
+[5.542s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__functions.c.o[0m
+[5.596s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__functions.c.o[0m
+[5.650s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c.o[0m
+[5.713s] [  6%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__functions.c.o[0m
+[5.778s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c.o[0m
+[5.840s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c.o[0m
+[5.902s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__functions.c.o[0m
+[5.954s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c.o[0m
+[6.018s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__functions.c.o[0m
+[6.071s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__functions.c.o[0m
+[6.137s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__functions.c.o[0m
+[6.199s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__functions.c.o[0m
+[6.350s] [ 13%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_c.so[0m
+[6.400s] [ 13%] Built target ur_dashboard_msgs__rosidl_generator_c
+[6.414s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.492s] [ 15%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[7.003s] [ 16%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[7.457s] [ 16%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[7.941s] [ 17%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[8.566s] [ 18%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[9.168s] [ 18%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[9.519s] [ 19%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o[0m
+[9.680s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[10.257s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[10.338s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[10.689s] [ 23%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[10.954s] [ 23%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o[0m
+[11.089s] [ 23%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[11.528s] [ 24%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[11.571s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o[0m
+[11.936s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[12.182s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o[0m
+[12.331s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[12.737s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[12.796s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o[0m
+[13.445s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o[0m
+[13.498s] [ 30%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so[0m
+[13.599s] [ 30%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[13.614s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.099s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o[0m
+[14.771s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o[0m
+[15.420s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o[0m
+[15.754s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o[0m
+[16.074s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[16.344s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[16.688s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o[0m
+[16.931s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o[0m
+[17.362s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o[0m
+[17.524s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o[0m
+[18.009s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[18.142s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o[0m
+[18.713s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o[0m
+[18.921s] [ 41%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.054s] [ 41%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[19.353s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o[0m
+[19.512s] running egg_info
+[19.513s] creating ur_dashboard_msgs.egg-info
+[19.514s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[19.514s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[19.514s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[19.515s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[19.519s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[19.520s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[19.568s] [ 42%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[19.582s] [ 43%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[19.965s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o[0m
+[20.543s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o[0m
+[21.142s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o[0m
+[21.764s] [ 46%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o[0m
+[22.074s] [ 47%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o[0m
+[22.412s] [ 47%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o[0m
+[22.591s] [ 47%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[22.988s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o[0m
+[23.081s] [ 49%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o[0m
+[23.560s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o[0m
+[23.585s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o[0m
+[24.179s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o[0m
+[24.513s] [ 53%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[24.668s] [ 53%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[24.682s] [ 54%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.719s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o[0m
+[25.290s] [ 55%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o[0m
+[25.825s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o[0m
+[26.390s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o[0m
+[26.866s] [ 58%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[26.922s] [ 59%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[26.938s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o[0m
+[26.973s] [ 59%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[27.018s] [ 60%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[27.072s] [ 61%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[27.121s] [ 62%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[27.177s] [ 62%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[27.227s] [ 63%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[27.282s] [ 64%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[27.330s] [ 64%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[27.383s] [ 65%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[27.432s] [ 66%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[27.476s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o[0m
+[27.488s] [ 68%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[27.534s] [ 68%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[27.610s] [ 69%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_typesupport_introspection_c.so[0m
+[27.663s] [ 69%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[27.678s] [ 70%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[28.039s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o[0m
+[28.629s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o[0m
+[29.211s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o[0m
+[29.290s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[29.333s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[29.379s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[29.420s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[29.465s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[29.515s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[29.556s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[29.609s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[29.652s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[29.704s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[29.747s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[29.799s] [ 81%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[29.821s] [ 82%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[29.843s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[29.894s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[29.945s] [ 83%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[29.976s] [ 84%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_c.so[0m
+[30.038s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[30.073s] [ 84%] Built target ur_dashboard_msgs
+[30.105s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[33.763s] [ 85%] Built target ur_dashboard_msgs__py
+[33.788s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o[0m
+[33.788s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o[0m
+[33.976s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o[0m
+[33.978s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o[0m
+[34.115s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o[0m
+[34.160s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o[0m
+[34.288s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o[0m
+[34.318s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o[0m
+[34.446s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o[0m
+[34.489s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o[0m
+[34.601s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o[0m
+[34.664s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o[0m
+[34.762s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o[0m
+[34.833s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o[0m
+[35.038s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so[0m
+[35.109s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[35.142s] [ 97%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[35.144s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[35.482s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.535s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.590s] [ 99%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[35.622s] [100%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[35.622s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[35.936s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.990s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[36.007s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs -- -j2 -l2
+[36.434s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs
+[36.449s] -- Install configuration: ""
+[36.449s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[36.449s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[36.449s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[36.450s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[36.450s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[36.450s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[36.450s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.c
+[36.451s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[36.451s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+[36.451s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[36.452s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+[36.452s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+[36.452s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+[36.452s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[36.452s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[36.453s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[36.453s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.c
+[36.454s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[36.454s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[36.454s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[36.454s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[36.454s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[36.455s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[36.455s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[36.457s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.c
+[36.457s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.c
+[36.457s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[36.457s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[36.458s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+[36.458s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+[36.458s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+[36.458s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+[36.458s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+[36.459s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+[36.459s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+[36.459s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+[36.459s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[36.460s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[36.460s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[36.460s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c
+[36.460s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c
+[36.460s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[36.461s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.c
+[36.461s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[36.461s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+[36.461s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[36.461s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[36.462s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+[36.462s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[36.462s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[36.462s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[36.462s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.c
+[36.463s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[36.463s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+[36.463s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[36.463s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+[36.463s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.c
+[36.464s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[36.464s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[36.464s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[36.464s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[36.464s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c
+[36.465s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[36.465s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[36.465s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.c
+[36.465s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.c
+[36.465s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+[36.466s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.c
+[36.466s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[36.466s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[36.466s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[36.466s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c
+[36.467s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[36.467s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[36.467s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[36.467s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[36.467s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[36.468s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+[36.468s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+[36.468s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[36.468s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[36.469s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[36.469s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""
+[36.470s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[36.470s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[36.470s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[36.470s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[36.470s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[36.470s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[36.471s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[36.471s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[36.471s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[36.472s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[36.472s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[36.472s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[36.472s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[36.472s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[36.473s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[36.473s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[36.473s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[36.473s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[36.473s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[36.474s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[36.474s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[36.474s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[36.474s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[36.475s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[36.475s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[36.475s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[36.476s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[36.476s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[36.476s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.c
+[36.476s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[36.476s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[36.477s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[36.477s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[36.477s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[36.477s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[36.477s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.c
+[36.478s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c
+[36.478s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c
+[36.478s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[36.478s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[36.478s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[36.479s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[36.479s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[36.479s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c
+[36.479s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c
+[36.480s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c
+[36.480s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.c
+[36.480s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[36.480s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c
+[36.480s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c
+[36.481s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[36.481s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[36.481s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c
+[36.481s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[36.481s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[36.481s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.c
+[36.482s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[36.482s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.c
+[36.482s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[36.482s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c
+[36.483s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[36.483s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[36.483s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[36.484s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""
+[36.484s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[36.484s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[36.484s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+[36.485s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[36.485s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[36.485s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[36.485s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[36.485s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[36.486s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+[36.486s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+[36.486s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[36.486s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[36.486s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[36.487s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[36.487s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[36.487s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[36.487s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[36.487s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[36.488s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[36.488s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[36.488s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+[36.488s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[36.488s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+[36.489s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[36.489s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+[36.489s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+[36.489s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+[36.489s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+[36.490s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[36.490s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[36.490s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[36.490s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[36.490s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[36.491s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[36.491s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[36.491s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[36.491s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[36.491s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[36.491s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[36.492s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[36.492s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[36.492s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[36.493s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[36.493s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[36.493s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[36.493s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[36.494s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[36.494s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[36.494s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[36.495s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[36.495s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[36.495s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[36.496s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[36.496s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[36.496s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[36.496s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[36.497s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[36.497s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[36.497s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[36.497s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+[36.498s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[36.498s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+[36.498s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[36.498s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[36.499s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[36.499s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[36.499s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/dds_fastrtps
+[36.499s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[36.499s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[36.500s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[36.500s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[36.500s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/dds_fastrtps
+[36.500s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[36.500s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[36.501s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[36.501s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[36.501s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[36.501s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[36.501s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/dds_fastrtps
+[36.501s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[36.502s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[36.502s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[36.502s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[36.502s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[36.503s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[36.503s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[36.503s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[36.503s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[36.504s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[36.504s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[36.504s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[36.505s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[36.505s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[36.505s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[36.505s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp
+[36.505s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[36.506s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[36.506s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp
+[36.506s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp
+[36.506s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[36.506s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[36.506s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[36.507s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp
+[36.507s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[36.507s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[36.507s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[36.508s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.cpp
+[36.508s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[36.508s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[36.508s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[36.509s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[36.509s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp
+[36.509s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp
+[36.509s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp
+[36.509s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[36.510s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp
+[36.510s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp
+[36.510s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp
+[36.510s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.cpp
+[36.510s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp
+[36.511s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[36.511s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[36.511s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp
+[36.511s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[36.511s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[36.512s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[36.512s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[36.512s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[36.513s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[36.513s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[36.513s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[36.514s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.9-py3.10.egg-info
+[36.514s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.9-py3.10.egg-info/dependency_links.txt
+[36.514s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.9-py3.10.egg-info/PKG-INFO
+[36.514s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.9-py3.10.egg-info/top_level.txt
+[36.514s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.9-py3.10.egg-info/SOURCES.txt
+[36.515s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs
+[36.519s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[36.520s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action
+[36.520s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py
+[36.520s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py
+[36.520s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode_s.c
+[36.521s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg
+[36.521s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[36.521s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state_s.c
+[36.521s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py
+[36.521s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+[36.521s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py
+[36.521s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+[36.522s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[36.522s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[36.522s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[36.522s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+[36.522s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py
+[36.522s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so
+[36.522s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv
+[36.523s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load_s.c
+[36.523s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[36.523s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[36.523s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+[36.524s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py
+[36.525s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup_s.c
+[36.525s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[36.526s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+[36.526s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+[36.526s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+[36.526s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+[36.527s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[36.527s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[36.527s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py
+[36.528s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+[36.528s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py
+[36.528s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[36.528s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+[36.529s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+[36.529s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py
+[36.529s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[36.530s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[36.530s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[36.607s] Listing '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs'...
+[36.607s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py'...
+[36.607s] Listing '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action'...
+[36.608s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py'...
+[36.608s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py'...
+[36.608s] Listing '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg'...
+[36.608s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py'...
+[36.608s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py'...
+[36.608s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py'...
+[36.608s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py'...
+[36.609s] Listing '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv'...
+[36.609s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py'...
+[36.609s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py'...
+[36.609s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py'...
+[36.609s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py'...
+[36.609s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py'...
+[36.609s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py'...
+[36.609s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py'...
+[36.609s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py'...
+[36.610s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py'...
+[36.610s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py'...
+[36.610s] Compiling '/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py'...
+[36.614s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[36.614s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.615s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[36.615s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.616s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[36.616s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.617s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+[36.617s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""
+[36.617s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[36.618s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[36.618s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[36.619s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[36.619s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[36.619s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[36.620s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[36.620s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[36.620s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[36.621s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[36.621s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[36.621s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[36.622s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[36.622s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[36.622s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[36.623s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[36.623s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[36.623s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[36.624s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+[36.624s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+[36.624s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[36.625s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+[36.625s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+[36.625s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[36.626s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+[36.626s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+[36.626s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[36.627s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+[36.627s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+[36.627s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[36.628s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+[36.628s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+[36.628s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[36.629s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+[36.629s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+[36.629s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[36.630s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+[36.630s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+[36.631s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[36.631s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+[36.632s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+[36.632s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[36.633s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+[36.633s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+[36.633s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[36.634s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+[36.634s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+[36.634s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[36.635s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[36.635s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[36.635s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[36.636s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[36.636s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[36.636s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[36.637s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[36.637s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[36.637s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[36.638s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[36.638s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[36.638s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[36.639s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[36.639s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-noconfig.cmake
+[36.640s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[36.640s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[36.640s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[36.641s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[36.641s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[36.641s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[36.642s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[36.642s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[36.642s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[36.643s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[36.643s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[36.644s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[36.644s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[36.644s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+[36.645s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-noconfig.cmake
+[36.645s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[36.646s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.649s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.649s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[36.650s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[36.650s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[36.650s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[36.651s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[36.652s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[36.652s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[36.656s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_dashboard_msgs

@@ -5,10 +5,10 @@ publisher_scaled_joint_trajectory_controller:
     wait_sec_between_publish: 6
 
     goal_names: ["pos1", "pos2", "pos3", "pos4"]
-    pos1: [0.785, -1.57, 0.785, 0.785, 0.785, 0.785]
-    pos2: [0.0, -1.57, 0.0, 0.0, 0.0, 0.0]
-    pos3: [0.0, -1.57, 0.0, 0.0, -0.785, 0.0]
-    pos4: [0.0, -1.57, 0.0, 0.0, 0.0, 0.0]
+    pos1: [0.0, -0.1157e-11, -2.373, 0.7047, -0.0577, 0.7047]
+    pos2: [0.0, 0.0922, -1.891053610911353e-11, -0.7071, 0.000562, 0.000562]
+    pos3: [0.0,  0.0922, -1.891053610911353e-11, -0.50188, -0.4981126, 0.4981126]
+    pos4: [0.62, -0.45, 1.1, -0.707, -0.000522, 0.000535]
 
     joints:
       - shoulder_pan_joint
@@ -18,7 +18,7 @@ publisher_scaled_joint_trajectory_controller:
       - wrist_2_joint
       - wrist_3_joint
 
-    check_starting_point: true
+    check_starting_point: false
     starting_point_limits:
       shoulder_pan_joint: [-0.1,0.1]
       shoulder_lift_joint: [-1.6,-1.5]
@@ -34,10 +34,23 @@ publisher_joint_trajectory_controller:
     wait_sec_between_publish: 6
 
     goal_names: ["pos1", "pos2", "pos3", "pos4"]
-    pos1: [0.785, -1.57, 0.785, 0.785, 0.785, 0.785]
-    pos2: [0.0, -1.57, 0.0, 0.0, 0.0, 0.0]
-    pos3: [0.0, -1.57, 0.0, 0.0, -0.785, 0.0]
-    pos4: [0.0, -1.57, 0.0, 0.0, 0.0, 0.0]
+    #pos1: [0.0, -1.57, 0.0, -1.57, 0.0, 0.0]   
+    #pos2: [0.0, -1.57, 0.785, -1.57, 0.0, 0.0]
+    #pos3: [0.0,  -0.785, 0.785, -1.57, 0.0, 0.785]
+    #pos4: [0.785, -0.785, 0.785, -1.57, 0.0, 0.0]
+
+    pos1:
+      positions: [0.0, -1.57, 0.0, -1.57, 0.0, 0.0]   
+      #velocities: [0.1, 0.1, 0.1, 0.1, 0.1, 0.1]  
+    pos2:  
+      positions: [0.0, -1.57, 0.785, -1.57, 0.0, 0.0]   
+      #velocities: [0.1, 0.1, 0.1, 0.1, 0.1, 0.1] 
+    pos3:  
+      positions: [0.0,  -0.785, 0.785, -1.57, 0.0, 0.785]   
+      #velocities: [0.1, 0.9, 0.1, 0.1, 0.1, 0.1] 
+    pos4:  
+      positions: [0.785, -0.785, 0.785, -1.57, 0.0, 0.0]   
+      #velocities: [0.1, 0.1, 0.1, 0.1, 0.1, 0.1] 
 
     joints:
       - shoulder_pan_joint
@@ -47,7 +60,7 @@ publisher_joint_trajectory_controller:
       - wrist_2_joint
       - wrist_3_joint
 
-    check_starting_point: true
+    check_starting_point: false
     starting_point_limits:
       shoulder_pan_joint: [-0.1,0.1]
       shoulder_lift_joint: [-1.6,-1.5]

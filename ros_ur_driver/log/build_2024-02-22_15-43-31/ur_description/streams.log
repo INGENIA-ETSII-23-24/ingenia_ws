@@ -1,0 +1,225 @@
+[0.084s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Description -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_description
+[0.212s] -- The C compiler identification is GNU 11.4.0
+[0.351s] -- The CXX compiler identification is GNU 11.4.0
+[0.368s] -- Detecting C compiler ABI info
+[0.446s] -- Detecting C compiler ABI info - done
+[0.455s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.455s] -- Detecting C compile features
+[0.456s] -- Detecting C compile features - done
+[0.460s] -- Detecting CXX compiler ABI info
+[0.547s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.556s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.561s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.742s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.881s] -- Found ament_cmake_pytest: 1.3.5 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.741s] -- Configuring done
+[1.747s] -- Generating done
+[1.748s] -- Build files have been written to: /home/adela/workspace/ros_ur_driver/build/ur_description
+[1.754s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Description -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_description
+[1.754s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_description -- -j2 -l2
+[1.796s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_description -- -j2 -l2
+[1.833s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_description
+[1.840s] -- Install configuration: ""
+[1.841s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config
+[1.841s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10e
+[1.841s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[1.841s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[1.841s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[1.842s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[1.842s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/initial_positions.yaml
+[1.842s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur20
+[1.842s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[1.843s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[1.843s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[1.843s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[1.843s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10
+[1.843s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[1.844s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[1.844s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[1.844s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[1.844s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e
+[1.844s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[1.845s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[1.845s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[1.845s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[1.845s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e
+[1.846s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[1.846s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[1.846s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[1.846s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[1.847s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5
+[1.847s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[1.847s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[1.847s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[1.847s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[1.848s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3
+[1.848s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[1.848s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[1.848s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[1.848s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[1.849s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3e
+[1.849s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[1.849s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[1.849s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[1.850s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[1.850s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/launch
+[1.850s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[1.850s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes
+[1.851s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e
+[1.851s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision
+[1.851s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[1.851s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[1.851s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[1.852s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[1.852s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[1.852s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[1.852s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[1.853s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual
+[1.853s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[1.856s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[1.857s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[1.858s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[1.860s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[1.862s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[1.863s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[1.863s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20
+[1.864s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/collision
+[1.864s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[1.864s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[1.864s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[1.865s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[1.865s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[1.865s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[1.865s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[1.866s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/visual
+[1.866s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[1.867s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[1.867s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[1.868s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[1.869s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[1.870s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[1.871s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[1.871s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[1.872s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[1.872s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10
+[1.872s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision
+[1.872s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[1.872s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[1.873s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[1.873s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[1.873s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[1.873s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[1.874s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[1.874s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual
+[1.874s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[1.876s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[1.877s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[1.878s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[1.880s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[1.881s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[1.883s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[1.884s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e
+[1.884s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision
+[1.884s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[1.884s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[1.884s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[1.885s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[1.885s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[1.885s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[1.886s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[1.886s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual
+[1.886s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[1.889s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[1.892s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[1.895s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[1.897s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[1.903s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[1.908s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[1.908s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e
+[1.908s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/collision
+[1.908s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[1.909s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[1.909s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/visual
+[1.909s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[1.915s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[1.921s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5
+[1.922s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision
+[1.922s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[1.922s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[1.922s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[1.923s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[1.923s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[1.923s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[1.923s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[1.924s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual
+[1.924s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[1.929s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[1.929s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[1.933s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[1.934s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[1.938s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[1.940s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[1.940s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3
+[1.940s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision
+[1.940s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[1.940s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[1.944s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[1.945s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[1.945s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[1.946s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[1.946s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[1.947s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual
+[1.947s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[1.952s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[1.956s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[1.957s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[1.958s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[1.963s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[1.967s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[1.968s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e
+[1.968s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision
+[1.968s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[1.968s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[1.968s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[1.969s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[1.969s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[1.969s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[1.970s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[1.970s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual
+[1.970s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[1.980s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[1.981s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[1.982s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[1.988s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[1.993s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[1.999s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[1.999s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/rviz
+[1.999s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[2.000s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf
+[2.000s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/inc
+[2.001s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[2.001s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[2.002s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[2.002s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[2.002s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[2.003s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/test
+[2.004s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[2.004s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[2.004s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[2.005s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[2.005s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[2.006s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[2.006s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/environment/path.sh
+[2.006s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/environment/path.dsv
+[2.006s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/local_setup.bash
+[2.007s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/local_setup.sh
+[2.007s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/local_setup.zsh
+[2.007s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/local_setup.dsv
+[2.008s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.dsv
+[2.008s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[2.008s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[2.008s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[2.009s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_description/share/ur_description/package.xml
+[2.014s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_description

@@ -1,0 +1,93 @@
+[0.122s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_controllers
+[0.190s] -- The C compiler identification is GNU 11.4.0
+[0.258s] -- The CXX compiler identification is GNU 11.4.0
+[0.271s] -- Detecting C compiler ABI info
+[0.358s] -- Detecting C compiler ABI info - done
+[0.369s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.369s] -- Detecting C compile features
+[0.370s] -- Detecting C compile features - done
+[0.374s] -- Detecting CXX compiler ABI info
+[0.469s] -- Detecting CXX compiler ABI info - done
+[0.480s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.480s] -- Detecting CXX compile features
+[0.480s] -- Detecting CXX compile features - done
+[0.484s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.691s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.803s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.809s] -- Found controller_interface: 2.35.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.864s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.870s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.883s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.901s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.940s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.023s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.030s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.200s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.235s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.320s] -- Looking for pthread.h
+[2.410s] -- Looking for pthread.h - found
+[2.410s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.491s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.492s] -- Found Threads: TRUE  
+[3.018s] -- Found joint_trajectory_controller: 2.26.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[3.328s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.648s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[3.679s] -- Found ur_dashboard_msgs: 2.2.9 (/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[3.787s] -- Found ur_msgs: 2.0.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[4.119s] -- Configuring done
+[4.182s] -- Generating done
+[4.184s] -- Build files have been written to: /home/adela/workspace/ros_ur_driver/build/ur_controllers
+[4.198s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/adela/workspace/ros_ur_driver/install/ur_controllers
+[4.199s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_controllers -- -j2 -l2
+[4.263s] [ 28%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/adela/workspace/ros_ur_driver/build/ur_controllers/speed_scaling_state_broadcaster_parameters/include//speed_scaling_state_broadcaster_parameters.hpp /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[4.264s] [ 28%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/adela/workspace/ros_ur_driver/build/ur_controllers/gpio_controller_parameters/include//gpio_controller_parameters.hpp /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[4.502s] [ 28%] Built target speed_scaling_state_broadcaster_parameters
+[4.506s] [ 28%] Built target gpio_controller_parameters
+[4.528s] [ 42%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/adela/workspace/ros_ur_driver/build/ur_controllers/scaled_joint_trajectory_controller_parameters/include//scaled_joint_trajectory_controller_parameters.hpp /home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[4.728s] [ 42%] Built target scaled_joint_trajectory_controller_parameters
+[4.753s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[4.754s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[15.291s] [ 85%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[29.903s] [100%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[31.451s] [100%] Built target ur_controllers
+[31.484s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adela/workspace/ros_ur_driver/build/ur_controllers -- -j2 -l2
+[31.563s] Invoking command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_controllers
+[31.578s] -- Install configuration: ""
+[31.578s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/include/gpio_controller_parameters
+[31.578s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/include/gpio_controller_parameters/gpio_controller_parameters.hpp
+[31.578s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters
+[31.578s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters/speed_scaling_state_broadcaster_parameters.hpp
+[31.578s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters
+[31.579s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters/scaled_joint_trajectory_controller_parameters.hpp
+[31.579s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[31.579s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/lib/libur_controllers.so
+[31.592s] -- Set runtime path of "/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib/libur_controllers.so" to ""
+[31.593s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_controllers/include
+[31.593s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/include/ur_controllers
+[31.594s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[31.594s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[31.595s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[31.595s] -- Up-to-date: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[31.596s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[31.596s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[31.597s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[31.597s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[31.598s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[31.598s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[31.599s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/path.sh
+[31.599s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[31.600s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/local_setup.bash
+[31.600s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/local_setup.sh
+[31.601s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[31.601s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[31.602s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.dsv
+[31.603s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[31.604s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[31.604s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.605s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.605s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[31.606s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[31.606s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[31.606s] -- Installing: /home/adela/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.xml
+[31.618s] Invoked command in '/home/adela/workspace/ros_ur_driver/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/adela/workspace/ros_ur_driver/install/ur:/home/adela/workspace/ros_ur_driver/install/ur_calibration:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver:/home/adela/workspace/ros_ur_driver/install/ur_moveit_config:/home/adela/workspace/ros_ur_driver/install/ur_bringup:/home/adela/workspace/ros_ur_driver/install/ur_description:/home/adela/workspace/ros_ur_driver/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/adela/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/adela/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/adela/workspace/ros_ur_driver/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adela/workspace/ros_ur_driver/build/ur_controllers

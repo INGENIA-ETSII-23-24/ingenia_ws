@@ -1,19 +1,19 @@
 {
   "package_name": "ur_dashboard_msgs",
   "non_idl_tuples": [
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/ProgramState.msg",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/RobotMode.msg",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/SafetyMode.msg",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/AddToLog.srv",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetLoadedProgram.srv",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetProgramState.srv",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetRobotMode.srv",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetSafetyMode.srv",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramRunning.srv",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramSaved.srv",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Load.srv",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Popup.srv",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/RawRequest.srv",
-    "/home/pedro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:action/SetMode.action"
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/ProgramState.msg",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/RobotMode.msg",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/SafetyMode.msg",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/AddToLog.srv",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetLoadedProgram.srv",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetProgramState.srv",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetRobotMode.srv",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetSafetyMode.srv",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramRunning.srv",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramSaved.srv",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Load.srv",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Popup.srv",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/RawRequest.srv",
+    "/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:action/SetMode.action"
   ]
 }
