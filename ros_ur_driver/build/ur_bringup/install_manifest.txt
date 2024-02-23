@@ -1,9 +1,12 @@
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/config/test_goal_publishers_config.yaml
+/home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/config/joint_positions.yaml
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/config/points.csv
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/config/test_goal_config1.yaml
+/home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/config/trayectoria_circular.csv
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/config/ur_controllers.yaml
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/simulacion_robot.launch.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/prueba502.py
+/home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/adela.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/prueba_inversa.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur16e.launch.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur10e.launch.py
@@ -13,8 +16,11 @@
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur_dashboard_client.launch.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/prueba2.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/test_scaled_joint_trajectory_controller.launch.py
+/home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/prueba_ik_yaml_varios.py
+/home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/genera_trayectoria_circular.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/robot_real.launch.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/test_joint_trajectory_controller.launch.py
+/home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/prueba_ik.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur3e.launch.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur5.launch.py
 /home/alvaro/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/ur_moveit.launch.py

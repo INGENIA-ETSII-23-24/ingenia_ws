@@ -27,8 +27,10 @@ from ament_index_python.packages import get_package_share_directory, PackageNotF
 def generate_launch_description():
 
     position_goals = PathJoinSubstitution(
-        [FindPackageShare("ur_bringup"), "config", "test_goal_config1.yaml"]
+        #[FindPackageShare("ur_bringup"), "config", "test_goal_config1.yaml"]
         #[FindPackageShare("ur_bringup"), "config", "test_goal_publishers_config.yaml"]
+        [FindPackageShare("ur_bringup"), "config", "joint_positions.yaml"]
+
     )
 
     # Kind of hack until this dependency is released
