@@ -45,9 +45,9 @@ class publisher_joint_trajectory_controller(Node):
         point = JointTrajectoryPoint()
 
         # Aquí redefine las posiciones de las articulaciones redondeandolas a 2 decimales
-        posiciones_art_red = [round(componente,2) for componente in posiciones_art]
-        point.positions = posiciones_art_red
-        point.time_from_start = Duration(sec=0, nanosec=10**8) # Tiempo desde el inicio de la trayectoria
+        #posiciones_art_red = [round(componente,2) for componente in posiciones_art]
+        point.positions = posiciones_art #posiciones_art_red
+        point.time_from_start = Duration(sec=6, nanosec=0) # Tiempo desde el inicio de la trayectoria
         
         msg.points.append(point)
         self.publisher_.publish(msg)
@@ -100,7 +100,7 @@ def main(args=None):
         goal_names.header.frame_id = "base_link"  
         goal_names.header.stamp = node.get_clock().now().to_msg()  # Aquí configuramos el campo 'stamp'
         goal_names.pose.position.x, goal_names.pose.position.y, goal_names.pose.position.z = position
-        goal_names.pose.orientation.w = 1.0
+        goal_names.pose.orientation.w = 0.0
 
 
         joint_positions = [] 
@@ -119,7 +119,7 @@ def main(args=None):
             #ESTO ES PARA EVITAR QUE LEA EL SIGUIENTE PUNTO ANTES DE ALCANZARLO
             #PARA SER MENOS CUTRES, HAY QUE HACER QUE ESTE TIEMPO VARIE Y UNA VEZ ALCANCE EL PUNTO, LEA EL SIGUIENTE
             #TIP DE PEDRO. USAR /tf QUE DA INFORMACION SOBRE EL ESTADO DEL ROBOT CADA NANOSEGUNDO
-        time.sleep(0.05)
+        time.sleep(0.01)
         #loop_rate.sleep()
 
     rclpy.spin(joint_trajectory_publisher)

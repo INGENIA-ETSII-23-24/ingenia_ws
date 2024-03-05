@@ -1,6 +1,7 @@
 /home/alvaro/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
 /home/alvaro/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
 /home/alvaro/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+/home/alvaro/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz/mesa_mala_scenario.scene
 /home/alvaro/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz/robot_mesa_scenario_small.scene
 /home/alvaro/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot_mesa.rviz
 /home/alvaro/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz

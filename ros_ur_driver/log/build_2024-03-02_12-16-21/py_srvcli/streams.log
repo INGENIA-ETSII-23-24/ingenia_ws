@@ -1,0 +1,23 @@
+[1.520s] Invoking command in '/home/alvaro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/py_srvcli': PYTHONPATH=/home/alvaro/workspace/ros_ur_driver/build/py_srvcli/prefix_override:/home/alvaro/workspace/ros_ur_driver/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_srvcli build --build-base /home/alvaro/workspace/ros_ur_driver/build/py_srvcli/build install --record /home/alvaro/workspace/ros_ur_driver/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed
+[1.760s] running egg_info
+[1.761s] writing ../../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.761s] writing dependency_links to ../../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.761s] writing entry points to ../../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.762s] writing requirements to ../../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.762s] writing top-level names to ../../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.803s] reading manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.804s] writing manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.804s] running build
+[1.804s] running build_py
+[1.804s] running install
+[1.805s] running install_lib
+[1.807s] running install_data
+[1.807s] running install_egg_info
+[1.809s] removing '/home/alvaro/workspace/ros_ur_driver/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[1.809s] Copying ../../../build/py_srvcli/py_srvcli.egg-info to /home/alvaro/workspace/ros_ur_driver/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[1.810s] running install_scripts
+[1.833s] Installing client script to /home/alvaro/workspace/ros_ur_driver/install/py_srvcli/lib/py_srvcli
+[1.834s] Installing prueba script to /home/alvaro/workspace/ros_ur_driver/install/py_srvcli/lib/py_srvcli
+[1.834s] Installing service script to /home/alvaro/workspace/ros_ur_driver/install/py_srvcli/lib/py_srvcli
+[1.834s] writing list of installed files to '/home/alvaro/workspace/ros_ur_driver/build/py_srvcli/install.log'
+[1.881s] Invoked command in '/home/alvaro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/py_srvcli' returned '0': PYTHONPATH=/home/alvaro/workspace/ros_ur_driver/build/py_srvcli/prefix_override:/home/alvaro/workspace/ros_ur_driver/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_srvcli build --build-base /home/alvaro/workspace/ros_ur_driver/build/py_srvcli/build install --record /home/alvaro/workspace/ros_ur_driver/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed

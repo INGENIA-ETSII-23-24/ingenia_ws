@@ -51,11 +51,13 @@
 /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
 /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
 /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+/home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/03_Estación.stl
 /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
 /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
 /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
 /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
 /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+/home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/03_Estación.stl
 /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
 /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
 /home/alvaro/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
