@@ -9,7 +9,7 @@ from launch.actions import RegisterEventHandler
 from launch.event_handlers import OnProcessStart
 from launch_ros.descriptions import ParameterValue
 from launch_ros.actions import Node
-use_sim_time = True
+use_sim_time = False
  
 def generate_launch_description():
  
@@ -20,7 +20,7 @@ def generate_launch_description():
     control = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     pkg,'launch','ur_control.launch.py'
-                )]), launch_arguments={'ur_type': 'ur10','use_fake_hardware': 'false','launch_rviz': 'false','robot_ip': '192.168.0.9', 'initial_joint_controller': 'joint_trayectory_controller'}.items()
+                )]), launch_arguments={'ur_type': 'ur10','use_fake_hardware': 'false','launch_rviz': 'false','robot_ip': '192.168.0.9', 'initial_joint_controller': 'joint_trajectory_controller'}.items()
     )
  
     # Nav2
@@ -36,3 +36,9 @@ def generate_launch_description():
                     pkg3,'launch','test_joint_trajectory_controller.launch.py'
                 )])
     )
+
+    return LaunchDescription([
+        control,
+        moveit,
+        #trayectoria,
+    ])
