@@ -1,12 +1,14 @@
 import rclpy
 import math
 from rclpy.node import Node
+from geometry_msgs.msg import Quaternion
 from geometry_msgs.msg import PoseStamped
 from moveit_msgs.srv import GetPositionIK
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from builtin_interfaces.msg import Duration
 from sensor_msgs.msg import JointState
 
+import time
 import csv
 
 
@@ -19,8 +21,8 @@ class IKTransformNode(Node):
     def transform_xyz_to_joint_positions(self, goal_names):
         request = GetPositionIK.Request()
         request.ik_request.group_name = "ur_manipulator"
-        request.ik_request.avoid_collisions=True
         request.ik_request.pose_stamped = goal_names
+        request.ik_request.avoid_collisions = True
         future = self.ik_client.call_async(request)
 
         rclpy.spin_until_future_complete(self, future)
@@ -48,7 +50,7 @@ class publisher_joint_trajectory_controller(Node):
 
     def AjustarTiempo(self, punto1, punto2):
         # Definir Velocidad de impresión
-        velocidad = 0.08
+        velocidad = 0.02
         distancia = math.sqrt((punto2[0] - punto1[0]) ** 2 +
                               (punto2[1] - punto1[1]) ** 2 +
                               (punto2[2] - punto1[2]) ** 2)
@@ -62,7 +64,7 @@ class publisher_joint_trajectory_controller(Node):
         # Para "puntos cercanos", trabajamos en nanosegundos, con un margen del 30%
         else:
             self.tiempo_sec = 0
-            self.tiempo_nanosec = int(tiempo * 1e9)
+            self.tiempo_nanosec = int(tiempo * 1.3 * 1e9)
 
     def publish_trajectory(self, coord_articulares):
         msg = JointTrajectory()
@@ -123,12 +125,10 @@ class JointStatesListener(Node):
 
 
 def read_positions_from_file(file_path):
-    positions = []
     with open(file_path, 'r') as file:
         csv_reader = csv.reader(file)
         for row in csv_reader:
-            positions.append([float(value) for value in row])
-    return positions
+            yield [float(value) for value in row]
 
 
 def main(args=None):
@@ -140,56 +140,56 @@ def main(args=None):
     node = rclpy.create_node("trayectoria_ingenia")
 
     file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/points.csv'
-    positions = read_positions_from_file(file_path)
+    # start = time.time()
+    positions_generator = read_positions_from_file(file_path)
+    # end = time.time()
+    # print("Tiempo transcurrido:", end - start)
+    last_position = None
 
-    print("Iniciando trayectoria...\n\n")
+    print("Iniciando trayectoria...\n")
 
-    for position in positions:
+    while True:
+        # print(
+        #     f"Inicio iteracion {joint_trajectory_publisher.cuenta} es {time.time()}")
+
+        try:
+            position = next(positions_generator)
+        except StopIteration:
+            break
+
         # print("Punto leído desde el archivo CSV:", position)
         goal_names = PoseStamped()
         goal_names.header.frame_id = "base_link"
         goal_names.header.stamp = node.get_clock().now().to_msg()
         goal_names.pose.position.x, goal_names.pose.position.y, goal_names.pose.position.z = position
-        # goal_names.pose.position.x += 0.5
-        # goal_names.pose.position.y += 0.5
-        # goal_names.pose.position.z += 0.5
+
         goal_names.pose.orientation.w = 1.0
+
+        # print(goal_names)
         joint_position = ik_node.transform_xyz_to_joint_positions(goal_names)
         # print("Joint positions:", joint_position)
 
-        if joint_trajectory_publisher.cuenta != 0:
-            joint_trajectory_publisher.AjustarTiempo(
-                positions[joint_trajectory_publisher.cuenta - 1], positions[joint_trajectory_publisher.cuenta])
+        if last_position is not None:
+            joint_trajectory_publisher.AjustarTiempo(last_position, position)
 
-        print("Tiempo en segundos: ",
-              joint_trajectory_publisher.tiempo_sec)
-        print("Tiempo en nanosegundos: ",
-              joint_trajectory_publisher.tiempo_nanosec)
+        last_position = position
+
+        # print("Tiempo en segundos: ",
+        #       joint_trajectory_publisher.tiempo_sec)
+        # print("Tiempo en nanosegundos: ",
+        #       joint_trajectory_publisher.tiempo_nanosec)
 
         joint_trajectory_publisher.publish_trajectory(joint_position)
 
         joint_states.joint_positions_target = joint_position
         joint_states.next_goal = True
 
-        while joint_states.reached_target == False: #Y SI DECIMOS QUE CUANDO ESTÉ CERCA EMPIECE A CALCULAR EL SIGUIENTE?????????????????????
+        while joint_states.reached_target == False:
             rclpy.spin_once(joint_states)
-            # Qué pasa si no llega al punto publicado nunca? Republicar?
-
-        # print(
-        #     f"Progreso trayectoria: ({joint_trajectory_publisher.cuenta}/{len(positions)})\n")
-
-        porcentaje_completado = (
-            joint_trajectory_publisher.cuenta / len(positions)) * 100
-        num_caracteres_llenos = int(porcentaje_completado // 2)
-        num_caracteres_vacios = 50 - num_caracteres_llenos
-        barra_llena = '█' * num_caracteres_llenos
-        barra_vacia = '░' * num_caracteres_vacios
-
-        print(
-            f"Progreso trayectoria: [{barra_llena}{barra_vacia}]\n")
 
         joint_states.reached_target = False
         joint_trajectory_publisher.cuenta += 1
+        # print(joint_trajectory_publisher.cuenta)
 
     # rclpy.spin(joint_trajectory_publisher)
     print("\n ###   FINAL DE TRAYECTORIA   ###\n")
