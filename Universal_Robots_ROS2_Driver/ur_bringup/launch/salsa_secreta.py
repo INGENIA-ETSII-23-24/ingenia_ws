@@ -45,12 +45,12 @@ class publisher_joint_trajectory_controller(Node):
             JointTrajectory, '/joint_trajectory_controller/joint_trajectory', 10)
         self.cuenta = 0
         # Asegurarse que las variables de tiempo siempre sean enteras
-        self.tiempo_sec = 6
+        self.tiempo_sec = 10
         self.tiempo_nanosec = 0
 
     def AjustarTiempo(self, punto1, punto2):
         # Definir Velocidad de impresión
-        velocidad = 0.02
+        velocidad = 0.04
         distancia = math.sqrt((punto2[0] - punto1[0]) ** 2 +
                               (punto2[1] - punto1[1]) ** 2 +
                               (punto2[2] - punto1[2]) ** 2)

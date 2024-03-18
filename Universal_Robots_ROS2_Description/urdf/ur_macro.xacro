@@ -274,7 +274,7 @@
 
     <link name="mesa">
       <visual>
-        <origin xyz="0 0 0" rpy="0 0 ${pi}"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="file://$(find ur_description)/meshes/ur10/visual/03_Estación.stl" scale="0.001 0.001 0.001"/>
         </geometry>
@@ -382,9 +382,9 @@
     <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
     <joint name="joint_mesa" type="fixed">
-      <parent link="${tf_prefix}base_link" />
+      <parent link="${tf_prefix}base_link_inertia" />
       <child link="mesa" />
-      <origin xyz="-0.76884 0.27794 -0.16726" rpy="-0.0054 -0.0053 3.153192654"/> 
+      <origin xyz="0.74884 -0.27794 -0.17726" rpy="-0.0054 -0.0053 3.153192654"/> 
       <axis xyz="0 0 1" />
     </joint>
 
