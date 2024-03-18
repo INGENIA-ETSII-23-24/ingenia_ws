@@ -12,6 +12,11 @@ rosdep install --ignore-src --from-paths src -y
 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 source install/setup.bash
 ```
+Si ocurren fallos durante el colcon build, actualizar sistema operativo:
+```
+sudo apt update
+sudo apt upgrade
+```
 
 ## Launch the simulation
 ```
