@@ -1,3 +1,16 @@
+# # DESCRIPCIÓN
+
+# Paquete de ros2 para la ejecucución de trayectorias. Este nodo es capaz de leer las coordenadas cartesianas de un csv almacenado en la carpeta ./data y calcular
+# los movimientos necesarios para poder efectuarla. Enesta versión, el robot se mueve calculando todas las poses en un sistema de coordanades lineales (cartesianas xyz). 
+# Antes de iniciar la trayectoria, se recomienda poner al robot en una pose amigable para facilitar el trabajo del algoritmo del cálculo
+# y evitar que pueda adoptar poses que puedan llevar a singularidades o poner en riesgo la integridad del equipo.
+
+# Los parámetros de entrada al nodo son:
+
+# * trayectoria_dato: Es el nombre del fichero CSV que contiene los puntos de la trayectoria a trazar. Debe estar obligatoriamente dentro de la carpeta ./data/
+
+
+
 # Librerías de ros
 import rclpy
 from rclpy.node import Node
@@ -7,11 +20,11 @@ from sensor_msgs.msg._joint_state import JointState  # Para leer el estado de la
 from ur_msgs.msg._io_states import IOStates # Para leer entradas y salidas digitales del UR.
 from moveit_msgs.srv import GetPositionIK # Para leer los mensajes de moveit.
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
-from geometry_msgs.msg import Pose
-from moveit_msgs.msg import Constraints
-from moveit_msgs.srv import GetCartesianPath
-from rclpy.action import ActionClient
-from moveit_msgs.action import ExecuteTrajectory
+from geometry_msgs.msg import Pose # Para manejar datos de las poses adoptadas en coordenadas articulares.
+from moveit_msgs.msg import Constraints # Control de restricciones impuestas por el urdf o el entorno de movit.
+from moveit_msgs.srv import GetCartesianPath # Algoritmo de cálculo de trayectorias en un espacio vectorial cartesiano.
+from rclpy.action import ActionClient # Cliente  para efecturar acciones de ros2.
+from moveit_msgs.action import ExecuteTrajectory # Acción de ejecución de trayectorias adaptada de moveit.
 from builtin_interfaces.msg import Duration
 
 
@@ -25,7 +38,7 @@ from tqdm import tqdm
 import math 
 import csv
 
-
+# Esta clase es la respondable de calcular la trayectoria cartesiana.
 class CartesianPathNode(Node):
     def __init__(self):
         super().__init__('cartesian_path_node')
@@ -57,6 +70,7 @@ class CartesianPathNode(Node):
             self.get_logger().info('Se ha fallado calculando la solución en IK.')
             return None
 
+# Clase responsable de comunicar las acciones de seguimiento y ejecución de trayectorias.
 class MyActionClientNode(Node):
     def __init__(self):
         super().__init__('action_client_node') 
@@ -77,26 +91,22 @@ class MyActionClientNode(Node):
 
         rclpy.spin_until_future_complete(self, future)
         result=future.result()
+   
 
-def read_postions_from_file(file_path):
-    positions=[]
-    with open(file_path, 'r') as file:
-        csv_reader=csv.reader(file)
-        for row in csv_reader:
-            positions.append([float(value) for value in row])
-        # print(positions)
-        print('Hola estoy leyendo el csv de coordenadas cartesianas.')
-        return positions
-    
-
+# Clase principal responsable de instanciar a las dos primeras y leer los datos del csv.
 class TrayectoryNode(Node):
     def __init__(self):
         super().__init__('trayectory_node_cartesian')
 
+        self.declare_parameter('trayectoria_dato', 'points_hel.csv')
+        
+
         self.cartesian_path_node= CartesianPathNode()
         self.action_client_node= MyActionClientNode()
 
-        file_path= '/home/alvaro/Desktop/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_hel.csv'
+
+        trayectoria=self.get_parameter('trayectoria_dato').value
+        file_path= '/home/alvaro/Desktop/workspace/ros_ur_driver/src/trayectories/data/' + trayectoria
         self.positions= self.read_positions_from_file(file_path)
 
         print('Iniciando trayectoria ...\n')
@@ -129,8 +139,7 @@ class TrayectoryNode(Node):
             csv_reader=csv.reader(file)
             for row in csv_reader:
                 positions.append([float(value) for value in row])
-            # print(positions)
-            # print('Hola estoy leyendo el csv de coordenadas cartesianas.')
+
             return positions
         
 
