@@ -87,41 +87,60 @@ def read_postions_from_file(file_path):
         # print(positions)
         print('Hola estoy leyendo el csv de coordenadas cartesianas.')
         return positions
+    
+
+class TrayectoryNode(Node):
+    def __init__(self):
+        super().__init__('trayectory_node_cartesian')
+
+        self.cartesian_path_node= CartesianPathNode()
+        self.action_client_node= MyActionClientNode()
+
+        file_path= '/home/alvaro/Desktop/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_hel.csv'
+        self.positions= self.read_positions_from_file(file_path)
+
+        print('Iniciando trayectoria ...\n')
+
+        self.goal_names=[]
+        self.calculo_trayectoria()
+
+    def calculo_trayectoria(self):
+
+        for position in self.positions:
+            poses=Pose()
+            poses.position.x, poses.position.y, poses.position.z = position
+            poses.orientation.w=1.0
+            self.goal_names.append(poses)
+
+        trajectory_solution= self.cartesian_path_node.compute_cartesian_path(self.goal_names)
+
+        if trajectory_solution:
+            print('Se ah calculado la trayectoria con éxito, ejecutando ...')
+            self.action_client_node.execute_trajectory(trajectory_solution)
+        else:
+            print('Fallo en el cálculo de trayectoria')
+
+        
+        print('\n--- FIN DE TRAYECTORIA ---\n')
+
+    def read_positions_from_file(self, file_path):
+        positions=[]
+        with open(file_path, 'r') as file:
+            csv_reader=csv.reader(file)
+            for row in csv_reader:
+                positions.append([float(value) for value in row])
+            # print(positions)
+            # print('Hola estoy leyendo el csv de coordenadas cartesianas.')
+            return positions
+        
 
 def main(args=None):
     rclpy.init(args=args)
 
-    cartesian_path_node= CartesianPathNode()
-    action_client_node= MyActionClientNode()
+    node=TrayectoryNode()
 
-    file_path= '/home/alvaro/Desktop/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_hel.csv'
-    positions= read_postions_from_file(file_path)
-
-    print('Iniciando trayectoria ...\n')
-
-    goal_names=[]
-
-    for position in positions:
-        poses=Pose()
-
-        poses.position.x, poses.position.y, poses.position.z = position
-        poses.orientation.w=1.0
-        goal_names.append(poses)
-
-    trajectory_solution= cartesian_path_node.compute_cartesian_path(goal_names)
-
-    if trajectory_solution:
-        print('Se ah calculado la trayectoria con éxito, ejecutando ...')
-        action_client_node.execute_trajectory(trajectory_solution)
-    else:
-        print('Fallo en el cálculo de trayectoria')
-
-    
-    print('\n--- FIN DE TRAYECTORIA ---\n')
-
-    # rclpy.spin(node)
-    # node.destroy_node()
-    # rclpy.shutdown()
+    node.destroy_node()
+    rclpy.shutdown()
 
 
 if __name__== '__main__':
