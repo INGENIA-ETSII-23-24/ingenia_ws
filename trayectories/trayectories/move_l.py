@@ -94,7 +94,7 @@ class MyActionClientNode(Node):
    
 
 # Clase principal responsable de instanciar a las dos primeras y leer los datos del csv.
-class TrayectoryNode(Node):
+class TrayectoryNodeL(Node):
     def __init__(self):
         super().__init__('trayectory_node_cartesian')
 
@@ -146,7 +146,7 @@ class TrayectoryNode(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    node=TrayectoryNode()
+    node=TrayectoryNodeL()
 
     node.destroy_node()
     rclpy.shutdown()
