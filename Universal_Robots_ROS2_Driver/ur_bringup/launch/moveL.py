@@ -22,6 +22,7 @@ class CartesianPathNode(Node):
 
     def compute_cartesian_path(self, waypoints):
         request = GetCartesianPath.Request()
+        x= GetCartesianPath.Request().
         request.header.stamp = self.get_clock().now().to_msg()
         request.group_name = "ur_manipulator"
         # request.start_state = ???
@@ -58,6 +59,14 @@ class MyActionClientNode(Node):
         if not self.execute_client.wait_for_server(timeout_sec=5.0):
             print("El servidor de la acción '/execute_trajectory' no está disponible")
             return
+        
+        execution_speed = 0.01
+
+        for point in trajectory_solution.points:
+            point.time_from_start = Duration(
+                seconds=point.time_from_start.sec / execution_speed,
+                nanoseconds=point.time_from_start.nanosec / execution_speed
+            )
 
         goal_msg = ExecuteTrajectory.Goal()
         goal_msg.trajectory = trajectory_solution
@@ -92,7 +101,7 @@ def main(args=None):
     cartesian_path_node = CartesianPathNode()
     action_client_node = MyActionClientNode()
 
-    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/helicoidal.csv'
+    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/points.csv'
     positions = read_positions_from_file(file_path)
 
     print("Iniciando trayectoria...\n")
