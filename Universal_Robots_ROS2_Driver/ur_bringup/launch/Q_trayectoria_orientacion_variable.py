@@ -2,16 +2,18 @@ import rclpy
 import math
 import time
 import csv
+import tf2_ros
 from rclpy.node import Node
-from geometry_msgs.msg import Pose
+from geometry_msgs.msg import Pose, PoseStamped, Quaternion
 from moveit_msgs.srv import GetCartesianPath
-from moveit_msgs.msg import Constraints
+from moveit_msgs.msg import Constraints, RobotTrajectory
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from moveit_msgs.action import ExecuteTrajectory
 from builtin_interfaces.msg import Duration
 from sensor_msgs.msg import JointState
 from action_msgs.msg import GoalStatus
 from rclpy.action import ActionClient
+from scipy.spatial.transform import Rotation as R
 
 
 class CartesianPathNode(Node):
@@ -19,6 +21,8 @@ class CartesianPathNode(Node):
         super().__init__('cartesian_path_node')
         self.compute_cartesian_path_client = self.create_client(
             GetCartesianPath, '/compute_cartesian_path')
+
+        self.tf_buffer = tf2_ros.Buffer()
 
     def compute_cartesian_path(self, waypoints):
         request = GetCartesianPath.Request()
@@ -28,6 +32,11 @@ class CartesianPathNode(Node):
         request.waypoints = waypoints
         request.max_step = 0.5
         request.avoid_collisions = True
+
+        if self.tf_buffer.can_transform("tool0", "base_link", rclpy.time.Time()):
+            print("Se puede hacer la conversión")
+        else:
+            print("No se puede")
 
         while not self.compute_cartesian_path_client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Servicio no disponible, esperando...')
@@ -40,7 +49,16 @@ class CartesianPathNode(Node):
 
         if future.result() is not None:
             trajectory = future.result().solution
-            print(future.result().fraction)
+            # print(trajectory.joint_trajectory.points)
+            # print(future.result().fraction)
+            # speed_scale = 10
+            # aux = RobotTrajectory()
+            # scaled_points = JointTrajectoryPoint()
+            # scaled_points = trajectory.joint_trajectory.points
+            # scaled_points.velocities = scaled_points.velocities/speed_scale
+            # scaled_points.duration = scaled_points.duration/speed_scale
+            # trajectory.joint_trajectory.points = scaled_points
+
             return trajectory
         else:
             self.get_logger().info("Failed to calculate IK solution")
@@ -58,8 +76,6 @@ class MyActionClientNode(Node):
         if not self.execute_client.wait_for_server(timeout_sec=5.0):
             print("El servidor de la acción '/execute_trajectory' no está disponible")
             return
-        
-       
 
         goal_msg = ExecuteTrajectory.Goal()
         goal_msg.trajectory = trajectory_solution
@@ -89,12 +105,19 @@ def read_positions_from_file(file_path):
     return positions
 
 
+def write_positions_to_file(quaternion_msg, file_path_write):
+    with open(file_path_write, 'a', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow([quaternion_msg.x, quaternion_msg.y,
+                        quaternion_msg.z, quaternion_msg.w])
+
+
 def main(args=None):
     rclpy.init(args=args)
     cartesian_path_node = CartesianPathNode()
     action_client_node = MyActionClientNode()
 
-    file_path = '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/points.csv'
+    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_quaternion.csv'
     positions = read_positions_from_file(file_path)
 
     print("Iniciando trayectoria...\n")
@@ -104,8 +127,18 @@ def main(args=None):
     for position in positions:
         # print("Punto leído desde el archivo CSV:", position)
         poses = Pose()
-        poses.position.x, poses.position.y, poses.position.z = position
-        poses.orientation.w = 1.0
+        poses.position.x, poses.position.y, poses.position.z, poses.orientation.x, poses.orientation.y, poses.orientation.z, poses.orientation.w = position
+    
+
+        quaternion_msg = Quaternion()
+        quaternion_msg.x = poses.orientation.x
+        quaternion_msg.y = poses.orientation.y
+        quaternion_msg.z = poses.orientation.z
+        quaternion_msg.w = poses.orientation.w
+
+
+        poses.orientation = quaternion_msg
+
         goal_names.append(poses)
 
     trajectory_solution = cartesian_path_node.compute_cartesian_path(
