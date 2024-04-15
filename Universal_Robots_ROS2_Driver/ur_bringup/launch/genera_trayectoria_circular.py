@@ -4,7 +4,7 @@ import csv
 # Parámetros de la trayectoria circular
 radio = 0.25
 centro = np.array([-0.5, -0.5, 0.5])
-num_puntos = 100000
+num_puntos = 1000000
 
 # Generar los ángulos en radianes
 theta = np.linspace(0, 2*np.pi, num_puntos)

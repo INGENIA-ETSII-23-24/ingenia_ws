@@ -22,7 +22,6 @@ class CartesianPathNode(Node):
 
     def compute_cartesian_path(self, waypoints):
         request = GetCartesianPath.Request()
-        x= GetCartesianPath.Request().
         request.header.stamp = self.get_clock().now().to_msg()
         request.group_name = "ur_manipulator"
         # request.start_state = ???
@@ -60,13 +59,6 @@ class MyActionClientNode(Node):
             print("El servidor de la acción '/execute_trajectory' no está disponible")
             return
         
-        execution_speed = 0.01
-
-        for point in trajectory_solution.points:
-            point.time_from_start = Duration(
-                seconds=point.time_from_start.sec / execution_speed,
-                nanoseconds=point.time_from_start.nanosec / execution_speed
-            )
 
         goal_msg = ExecuteTrajectory.Goal()
         goal_msg.trajectory = trajectory_solution
