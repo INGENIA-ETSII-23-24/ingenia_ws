@@ -117,7 +117,7 @@ def main(args=None):
     cartesian_path_node = CartesianPathNode()
     action_client_node = MyActionClientNode()
 
-    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_quaternion.csv'
+    file_path = '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_quaternion.csv'
     positions = read_positions_from_file(file_path)
 
     print("Iniciando trayectoria...\n")
@@ -130,14 +130,14 @@ def main(args=None):
         poses.position.x, poses.position.y, poses.position.z, poses.orientation.x, poses.orientation.y, poses.orientation.z, poses.orientation.w = position
     
 
-        quaternion_msg = Quaternion()
-        quaternion_msg.x = poses.orientation.x
-        quaternion_msg.y = poses.orientation.y
-        quaternion_msg.z = poses.orientation.z
-        quaternion_msg.w = poses.orientation.w
+        # quaternion_msg = Quaternion()
+        # quaternion_msg.x = poses.orientation.x
+        # quaternion_msg.y = poses.orientation.y
+        # quaternion_msg.z = poses.orientation.z
+        # quaternion_msg.w = poses.orientation.w
 
 
-        poses.orientation = quaternion_msg
+        # poses.orientation = quaternion_msg
 
         goal_names.append(poses)
 

@@ -3,11 +3,11 @@ import csv
 
 # Parámetros de la trayectoria circular
 radio = 0.25
-centro = np.array([0.5, 0.5, 0.5])
+centro = np.array([0.25, 0.5, 1.5])
 num_puntos = 1000
 
 # Punto fijo al que se apuntará
-punto_fijo = np.array([0.5, 0.5, 0.25])
+punto_fijo = np.array([0.25, 0.5, 2.0])
 
 # Generar los ángulos en radianes
 theta = np.linspace(0, 2*np.pi, num_puntos)
@@ -31,6 +31,7 @@ angulo_rotacion = np.arccos(np.dot([0, 0, 1], direcciones_unitarias.T))
 
 # Calcular el componente w de la orientación
 orientation_w = np.cos(angulo_rotacion / 2)
+
 
 # Escribir los puntos y las orientaciones en un archivo CSV
 with open('/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_quaternion.csv', 'w', newline='') as csvfile:
