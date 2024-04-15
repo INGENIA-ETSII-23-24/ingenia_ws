@@ -18,7 +18,7 @@ z = centro[2] * np.ones_like(theta)
 puntos = np.column_stack((x, y, z))
 
 # Escribir los puntos en un archivo CSV
-with open('/home/alvaro/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/points.csv', 'w', newline='') as csvfile:
+with open('/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/points.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(puntos)
 

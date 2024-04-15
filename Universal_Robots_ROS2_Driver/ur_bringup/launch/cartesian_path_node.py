@@ -139,7 +139,7 @@ def main(args=None):
 
     node = rclpy.create_node("trayectoria_ingenia")
 
-    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/points.csv'
+    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_hel.csv'
     positions = read_positions_from_file(file_path)
 
     print("Iniciando trayectoria...\n\n")
