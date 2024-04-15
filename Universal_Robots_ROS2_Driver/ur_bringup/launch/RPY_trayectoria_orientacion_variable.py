@@ -122,7 +122,7 @@ def main(args=None):
     node = rclpy.create_node("trayectoria_ingenia")
     tf_listener = tf2_ros.TransformListener(tf_buffer, node=node)  # Se agrega el nodo aquí
 
-    file_path = '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_orientations.csv'
+    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_orientations.csv'
     positions_generator = read_positions_from_file(file_path)
     last_position = None
 
