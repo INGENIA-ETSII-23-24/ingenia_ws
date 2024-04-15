@@ -3,7 +3,7 @@ import csv
 
 # Parámetros de la trayectoria circular
 radio = 0.25
-centro = np.array([0.5, 0.5, 0.5])
+centro = np.array([-0.5, -0.5, 0.5])
 num_puntos = 100
 
 # Generar los ángulos en radianes
