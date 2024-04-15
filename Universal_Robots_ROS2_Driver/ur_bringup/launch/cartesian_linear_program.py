@@ -92,7 +92,7 @@ def main(args=None):
     cartesian_path_node = CartesianPathNode()
     action_client_node = MyActionClientNode()
 
-    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/helicoidal.csv'
+    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/points.csv'
     positions = read_positions_from_file(file_path)
 
     print("Iniciando trayectoria...\n")
@@ -100,7 +100,7 @@ def main(args=None):
     goal_names = []
 
     for position in positions:
-        # print("Punto leído desde el archivo CSV:", position)
+        #print("Punto leído desde el archivo CSV:", position)
         poses = Pose()
         poses.position.x, poses.position.y, poses.position.z = position
         poses.orientation.w = 1.0
@@ -118,8 +118,8 @@ def main(args=None):
         print("Fallo al calcular la trayectoria")
 
     print("\n ###   FINAL DE TRAYECTORIA   ###\n")
-    # cartesian_path_node.destroy_node()
-    # rclpy.shutdown()
+    cartesian_path_node.destroy_node()
+    rclpy.shutdown()
 
 
 if __name__ == '__main__':
