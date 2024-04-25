@@ -59,10 +59,6 @@ class MyActionClientNode(Node):
             print("El servidor de la acción '/execute_trajectory' no está disponible")
             return
         
-<<<<<<< HEAD
-=======
-       
->>>>>>> 6933dbca7b913b3c20ad9163fb4ed8e64c76eb45
 
         goal_msg = ExecuteTrajectory.Goal()
         goal_msg.trajectory = trajectory_solution

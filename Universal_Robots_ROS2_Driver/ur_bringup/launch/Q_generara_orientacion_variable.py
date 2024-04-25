@@ -7,7 +7,7 @@ centro = np.array([0.5, 0.25, 0.5])
 num_puntos = 1000
 
 # Punto fijo al que se apuntará
-punto_fijo = np.array([0.5, 0.25, 2])
+punto_fijo = np.array([2, 2, 1])
 
 # Generar los ángulos en radianes
 theta = np.linspace(0, 2*np.pi, num_puntos)
