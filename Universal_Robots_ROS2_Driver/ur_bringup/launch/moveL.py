@@ -59,8 +59,6 @@ class MyActionClientNode(Node):
             print("El servidor de la acción '/execute_trajectory' no está disponible")
             return
         
-       
-
         goal_msg = ExecuteTrajectory.Goal()
         goal_msg.trajectory = trajectory_solution
 
@@ -94,7 +92,7 @@ def main(args=None):
     cartesian_path_node = CartesianPathNode()
     action_client_node = MyActionClientNode()
 
-    file_path = '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/points.csv'
+    file_path = '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/20240425_medio_cilindro_poses_quat_en_m.csv'
     positions = read_positions_from_file(file_path)
 
     print("Iniciando trayectoria...\n")
@@ -102,9 +100,15 @@ def main(args=None):
     goal_names = []
 
     for position in positions:
-        # print("Punto leído desde el archivo CSV:", position)
+        #print("Punto leído desde el archivo CSV:", position)
         poses = Pose()
-        poses.position.x, poses.position.y, poses.position.z = position
+        #poses.position.x, poses.position.y, poses.position.z, poses.orientation.w, poses.orientation.x, poses.orientation.y, poses.orientation.z = position
+        poses.position.x, poses.position.y, poses.position.z, ñe, ñee, ñeeee, ñeeeeeeee = position
+        poses.position.x = poses.position.x - 0.5
+        poses.position.y = poses.position.y -0.3
+        poses.position.z = poses.position.z + 0.5
+
+
         poses.orientation.w = 1.0
         goal_names.append(poses)
 
@@ -120,8 +124,8 @@ def main(args=None):
         print("Fallo al calcular la trayectoria")
 
     print("\n ###   FINAL DE TRAYECTORIA   ###\n")
-    # cartesian_path_node.destroy_node()
-    # rclpy.shutdown()
+    cartesian_path_node.destroy_node()
+    rclpy.shutdown()
 
 
 if __name__ == '__main__':
