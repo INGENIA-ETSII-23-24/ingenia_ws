@@ -58,7 +58,7 @@ class MyActionClientNode(Node):
         if not self.execute_client.wait_for_server(timeout_sec=5.0):
             print("El servidor de la acción '/execute_trajectory' no está disponible")
             return
-        
+
         goal_msg = ExecuteTrajectory.Goal()
         goal_msg.trajectory = trajectory_solution
 
