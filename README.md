@@ -43,7 +43,11 @@ La cronología de los programas del proyecto en el curso 2023/2024 es la siguien
 
 4) [moveJ.py](./Universal_Robots_ROS2_Driver/ur_bringup/moveJ.py) Este programa es la versión final de lo que estábamos haciendo. El problema de las versiones anteriores era que había una pausa notable para cada punto. Para solucionar esto, se publica todos los puntos de la trayectoria al mismo tiempo. Funciona perfectamente, pero para muchos puntos tarda mucho tiempo en iniciar el programa, incluso en muchas ocasiones se queda pillado.
 
-5) [moveL.py](./Universal_Robots_ROS2_Driver/ur_bringup/moveL.py) Este programa es el programa recomendado para las pruebas. En este porgrama se utiliza otro servicio para el cálculo de la trayectoria (GetCartesianPath.srv) y una acción para la ejecución de la trayectoria (ExecuteTrajectory), en vez de utilizar el topic. Este programa ha dado los mejores resultados en las pruebas, aunque presenta algunos problemas.  
+5) [moveL.py](./Universal_Robots_ROS2_Driver/ur_bringup/moveL.py) Este programa es el programa recomendado para las pruebas. En este porgrama se utiliza otro servicio para el cálculo de la trayectoria (GetCartesianPath.srv) y una acción para la ejecución de la trayectoria (ExecuteTrajectory), en vez de utilizar el topic. Este programa ha dado los mejores resultados en las pruebas, aunque presenta algunos problemas.
+
+El esquema generalizado del funcionamiento de moveL.py es el siguiente:  
+
+![Flujo de trabajo de moveL](docs/Esquema_movel.png)
 
 Estos primeros intentos sirvieron para entender la comunicación con un robot real de manera sencilla. El problema de utilizar Python es que el servicio que calcula la trayectoria, y los parámetros de control del movimiento del robot son independientes.  
 
@@ -51,12 +55,10 @@ Estos primeros intentos sirvieron para entender la comunicación con un robot re
 
 Se ha conseguido entender la comunicación con el robot para la ejecución de trayectorias sencillas. La planificación del movimiento del robot era una responsabilidad compartida con @Producto. De esta manera, en la parte de programación de @Arquitectura se utilizan [algoritmos básicos de optimización de código abierto](https://moveit.picknik.ai/humble/doc/examples/ompl_interface/ompl_interface_tutorial.html). Sin embargo, en el planificador no se tiene en cuenta los parámetros de control del robot: para la planificación, solo se tienen los puntos por los que tiene que pasar, ejecutándolos a la velocidad máxima.  
 
-Se proponen las siguientes sohttps://moveit.picknik.ai/humble/doc/examples/ompl_interface/ompl_interface_tutorial.htmlluciones:  
+Se proponen las siguientes soluciones:  
 1) Implementación de nodos de C++ integrados en el espacio de trabajo de ROS2. En C++ existe una clase donde se tiene integrado tanto el planificador de trayectorias como el ejecutor del movimiento en MoveIt2. Se han planteado los primeros pasos de un nodo integrado aquí (link). 
   
 2) Utilizar otros entornos de simulación diferentes de MoveIt.
-
-(imagen esquema)
 
 
 # Enlaces de interés  
