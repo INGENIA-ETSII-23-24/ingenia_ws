@@ -124,12 +124,28 @@ def main(args=None):
     # print(trajectory_solution)
 
     if trajectory_solution:
-        print("Trayectoria calculada exitosamente, ejecutando...")
-        action_client_node.execute_trajectory(trajectory_solution)
+        print("Trayectoria calculada exitosamente.")
+        # print(trajectory_solution)
+
+        # No es necesario implementar la clase de previsualización de la trayectoria, ya se ve
+        while True:
+            user_input = input(
+                "¿Desea continuar con la ejecución de la trayectoria? (si/no): ")
+            if user_input.lower() == 'sí' or user_input.lower() == 'si':
+                print("Ejecutando trayectoria...")
+                action_client_node.execute_trajectory(trajectory_solution)
+                break
+            elif user_input.lower() == 'no':
+                print("Ejecución de trayectoria cancelada.")
+                break
+            else:
+                print("Por favor, ingrese 'sí' o 'no'.")
+
     else:
         print("Fallo al calcular la trayectoria")
 
     print("\n ###   FINAL DE TRAYECTORIA   ###\n")
+    print("      ###### by BBB #######")
     cartesian_path_node.destroy_node()
     rclpy.shutdown()
 
