@@ -13,6 +13,10 @@ import csv
 
 
 # ESTE NODO SE ENCARGA DE TRANSFORMAS LAS COORDENADAS DE XYZ A POSICIONES ARTICULARES
+# 1) El servicio recibe un Request con diferentes campos (nombre del robot, waypoints en coordenadas cartesianas)
+# Más info inspeccionando la clase GetPositionIK y GetPositionIK.Request
+# 2) La respuesta del servicio son un conjunto de posiciones articulares del robot que se recoge en una variable
+# de tipo RobotState
 class IKTransformNode(Node):
     def __init__(self):
         super().__init__('ik_transform_node')
@@ -35,7 +39,10 @@ class IKTransformNode(Node):
             return None
 
 # ESTE NODO PUBLICA LAS COORDENADAS ARTICULARES AL TOPIC INDICAD0
-
+# Esta clase publica de uno en uno todas las posiciones articulares que generan la trayectoria deseada, calculada
+# en el servicio GetPositionIK. 
+# Se ajustan los tiempo a mano (que controlan indirectamente la velocidad), y en la realidad se produce una parada 
+# apreciable para cada punto de la trayectoria
 
 class publisher_joint_trajectory_controller(Node):
 
@@ -82,7 +89,8 @@ class publisher_joint_trajectory_controller(Node):
         # self.get_logger().info('Publicando: %s' % msg)
 
 # ESTE NODO RECIBE LA POSICIÓN ARTICULAR DEL ROBOT
-# Función asíncrona que envía una bandera para el cerrar el bucle de control del main
+# Función asíncrona que envía una bandera para el cerrar el bucle de control del main. Cuando alcance la posición articular
+# deseada, el publisher publica la siguiente posicion articular de la trayectoria
 
 
 class JointStatesListener(Node):
