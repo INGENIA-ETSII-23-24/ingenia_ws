@@ -56,7 +56,7 @@ Estos primeros intentos sirvieron para entender la comunicación con un robot re
 Se ha conseguido entender la comunicación con el robot para la ejecución de trayectorias sencillas. La planificación del movimiento del robot era una responsabilidad compartida con @Producto. De esta manera, en la parte de programación de @Arquitectura se utilizan [algoritmos básicos de optimización de código abierto](https://moveit.picknik.ai/humble/doc/examples/ompl_interface/ompl_interface_tutorial.html). Sin embargo, en el planificador no se tiene en cuenta los parámetros de control del robot: para la planificación, solo se tienen los puntos por los que tiene que pasar, ejecutándolos a la velocidad máxima.  
 
 Se proponen las siguientes soluciones:  
-1) Implementación de nodos de C++ integrados en el espacio de trabajo de ROS2. En C++ existe una clase donde se tiene integrado tanto el planificador de trayectorias como el ejecutor del movimiento en MoveIt2. Se han planteado los primeros pasos de un nodo integrado aquí (link). 
+1) Implementación de nodos de C++ integrados en el espacio de trabajo de ROS2. En C++ existe una clase donde se tiene integrado tanto el planificador de trayectorias como el ejecutor del movimiento en MoveIt2. Se han planteado los primeros pasos de un [nodo integrado](Universal_Robots_ROS2_Driver/ingenia). 
   
 2) Utilizar otros entornos de simulación diferentes de MoveIt.
 
