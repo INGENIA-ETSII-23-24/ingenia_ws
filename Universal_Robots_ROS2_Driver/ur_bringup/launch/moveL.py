@@ -13,7 +13,11 @@ from sensor_msgs.msg import JointState
 from action_msgs.msg import GoalStatus
 from rclpy.action import ActionClient
 
-
+# Servicio utilizado para generar una trayectoria cartesiana. 
+# 1) El Request de este servicio recibe los puntos en coordenadas cartesianas, además de algunos
+# parámetros que ayudan a generar una trayectoria cartesiana, como el nombre del robot, datos sobre
+# la interpolación de la trayectoria (step, puntos intermedios). Más info, inspeccionando la clase
+# 2) La Respuesta del servicio te genera una trayectoria de robot
 class CartesianPathNode(Node):
     def __init__(self):
         super().__init__('cartesian_path_node')
@@ -46,6 +50,7 @@ class CartesianPathNode(Node):
             self.get_logger().info("Failed to calculate IK solution")
             return None
 
+# Esta clase se utiliza la acción de MoveIt para ejecutar una trayectoria dada
 
 class MyActionClientNode(Node):
     def __init__(self):
@@ -77,6 +82,7 @@ class MyActionClientNode(Node):
         # else:
         #     print("Fallo al ejecutar la trayectoria")
 
+# Función usada para almacenar en una variable tipo lista los puntos de un archivo .csv
 
 def read_positions_from_file(file_path):
     positions = []
@@ -125,12 +131,28 @@ def main(args=None):
     # print(trajectory_solution)
 
     if trajectory_solution:
-        print("Trayectoria calculada exitosamente, ejecutando...")
-        action_client_node.execute_trajectory(trajectory_solution)
+        print("Trayectoria calculada exitosamente.")
+        # print(trajectory_solution)
+
+        # No es necesario implementar la clase de previsualización de la trayectoria, ya se ve
+        while True:
+            user_input = input(
+                "¿Desea continuar con la ejecución de la trayectoria? (si/no): ")
+            if user_input.lower() == 'sí' or user_input.lower() == 'si':
+                print("Ejecutando trayectoria...")
+                action_client_node.execute_trajectory(trajectory_solution)
+                break
+            elif user_input.lower() == 'no':
+                print("Ejecución de trayectoria cancelada.")
+                break
+            else:
+                print("Por favor, ingrese 'sí' o 'no'.")
+
     else:
         print("Fallo al calcular la trayectoria")
 
     print("\n ###   FINAL DE TRAYECTORIA   ###\n")
+    print("      ###### by BBB #######")
     cartesian_path_node.destroy_node()
     rclpy.shutdown()
 

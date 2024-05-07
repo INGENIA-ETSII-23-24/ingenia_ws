@@ -39,7 +39,9 @@ class IKTransformNode(Node):
             return None
 
 # ESTE NODO PUBLICA LAS COORDENADAS ARTICULARES AL TOPIC INDICAD0
-
+# Misma explicación que cartesian_path_node.py y salsa_secreta.py. La diferencia es que si se
+# publican todos los puntos a la vez, se eliminan las pausas entre puntos, y se produce una
+# trayectoria mas fluida. Sin embargo, tarda más en iniciarse, en función de los puntos enviados
 
 class publisher_joint_trajectory_controller(Node):
 

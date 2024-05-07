@@ -11,6 +11,10 @@ import csv
 
 
 # ESTE NODO SE ENCARGA DE TRANSFORMAS LAS COORDENADAS DE XYZ A POSICIONES ARTICULARES
+# 1) El servicio recibe un Request con diferentes campos (nombre del robot, waypoints en coordenadas cartesianas)
+# Más info inspeccionando la clase GetPositionIK y GetPositionIK.Request
+# 2) La respuesta del servicio son un conjunto de posiciones articulares del robot que se recoge en una variable
+# de tipo RobotState
 class IKTransformNode(Node):
     def __init__(self):
         super().__init__('ik_transform_node')

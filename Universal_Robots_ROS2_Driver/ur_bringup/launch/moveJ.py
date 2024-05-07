@@ -14,6 +14,10 @@ import csv
 
 
 # ESTE NODO SE ENCARGA DE TRANSFORMAS LAS COORDENADAS DE XYZ A POSICIONES ARTICULARES
+# Esta clase utiliza el servicio de MoveIt para obtener una trayectoria en coordenadas articulares
+# 1) El Request recibe posiciones cartesianas, y obtiene una serie de posiciones articulares que se 
+# corresponden al estado del robot en el que el tcp alcanza las coordenadas cartesianas indicadas
+# La Respuesta del servicio es una trayectoria de tipo RobotState
 class IKTransformNode(Node):
     def __init__(self):
         super().__init__('ik_transform_node')
@@ -39,7 +43,8 @@ class IKTransformNode(Node):
             return None
 
 # ESTE NODO PUBLICA LAS COORDENADAS ARTICULARES AL TOPIC INDICAD0
-
+# Clase que publica la trayectoria calculada, modificando valores de ejecución de trayectoria:
+# Control de la velocidad de cada articulación a través del time_from_start
 
 class publisher_joint_trajectory_controller(Node):
 
