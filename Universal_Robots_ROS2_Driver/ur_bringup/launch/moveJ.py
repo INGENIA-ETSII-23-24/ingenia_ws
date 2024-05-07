@@ -135,8 +135,8 @@ def main(args=None):
 
     node = rclpy.create_node("trayectoria_ingenia")
 
-    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/castillo.csv'
-    file_path_write = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/transformadas_castillo_moveJ.csv'
+    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_hel.csv'
+    #file_path_write = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/transformadas_castillo_moveJ.csv'
     positions_generator = read_positions_from_file(file_path)
 
     print("Iniciando trayectoria...\n")
@@ -158,7 +158,7 @@ def main(args=None):
         goal_names.pose.orientation.w = 1.0
 
         joint_position = ik_node.transform_xyz_to_joint_positions(goal_names)
-        write_positions_to_file(joint_position, file_path_write)
+        #write_positions_to_file(joint_position, file_path_write)
         # print(joint_position)
 
         if len(joint_position) == 6:

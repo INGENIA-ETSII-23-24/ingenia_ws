@@ -91,8 +91,9 @@ def main(args=None):
     rclpy.init(args=args)
     cartesian_path_node = CartesianPathNode()
     action_client_node = MyActionClientNode()
-
-    file_path = '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/20240425_medio_cilindro_poses_quat_en_m.csv'
+    
+    file_path = './src/Universal_Robots_ROS2_Driver/ur_bringup/config/points_hel.csv'
+    #file_path = '/home/adela/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/config/20240425_medio_cilindro_poses_quat_en_m.csv'
     positions = read_positions_from_file(file_path)
 
     print("Iniciando trayectoria...\n")
@@ -102,13 +103,19 @@ def main(args=None):
     for position in positions:
         #print("Punto leído desde el archivo CSV:", position)
         poses = Pose()
+
+        #para leer la trayectoria si en el csv no hay orientaciones
+        poses.position.x, poses.position.y, poses.position.z = position 
+        #para tener en cuenta las orientaciones leidas
         #poses.position.x, poses.position.y, poses.position.z, poses.orientation.w, poses.orientation.x, poses.orientation.y, poses.orientation.z = position
-        poses.position.x, poses.position.y, poses.position.z, ñe, ñee, ñeeee, ñeeeeeeee = position
-        poses.position.x = poses.position.x - 0.5
-        poses.position.y = poses.position.y -0.3
-        poses.position.z = poses.position.z + 0.5
+        
+        #para ignorar la s orientaciones leidas
+        #poses.position.x, poses.position.y, poses.position.z, ñe, ñee, ñeeee, ñeeeeeeee = position
 
-
+        #asi los desplazamos de la base
+        #poses.position.x = poses.position.x - 0.5
+        #poses.position.y = poses.position.y -0.3
+        #poses.position.z = poses.position.z + 0.5
         poses.orientation.w = 1.0
         goal_names.append(poses)
 
