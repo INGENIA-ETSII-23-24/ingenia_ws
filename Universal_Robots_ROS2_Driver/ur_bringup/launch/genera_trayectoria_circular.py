@@ -1,7 +1,11 @@
+#ESTE PROGRAMA SE ENCARGA DE GENERAL UNA TRAYECTORIA CIRCULAR Y ESCRIBIR LOS PUNTOS EN UN .CSV PARA PODER
+#PROBAR LOS DIFERENTES PROGRAMAS DESARROLLADOS.
+
+#PARA LANZARLA, SE USA EL PROGRAMA MOVERJ
 import numpy as np
 import csv
 
-# Parámetros de la trayectoria circular
+# Parámetros de la trayectoria circular. MODIFICAR SEGÚN SE DESEE.
 radio = 0.25
 centro = np.array([-0.5, -0.5, 0.5])
 num_puntos = 1000000

@@ -1,7 +1,12 @@
+#ESTE PROGRAMA SE ENCARGA DE GENERAL UNA TRAYECTORIA HELICOIDAL Y ESCRIBIR LOS PUNTOS EN UN .CSV PARA PODER
+#PROBAR LOS DIFERENTES PROGRAMAS DESARROLLADOS.
+
+#PARA LANZARLAS, SE USA EL PROGRAMA MOVERJ
+
 import numpy as np
 import csv
 
-# Parámetros de la trayectoria helicoidal
+# Parámetros de la trayectoria helicoidal. MODIFICAR SEGÚN SE DESEE.  CUIDADO CON LA ALTURA, YA QUE SI ES POCA, ALGUNA ARTICULACION PUEDE CHOCAR CON LA MESA Y DA ERRORES.
 radio = 0.2  # Radio del círculo en metros
 altura_inicial = 0.8  # Altura inicial en metros
 descenso_por_vuelta = 0.05  # Descenso de altura por vuelta en metros

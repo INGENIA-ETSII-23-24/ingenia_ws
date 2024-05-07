@@ -1,3 +1,5 @@
+#ESTE ES EL LAUNCH PARA LANZAR LO NECESARIO DE UNA VEZ Y PODER COMENZAR A TRABAJAR CON EL UR EN LA ESTACION DEL LABORATORIO
+
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription

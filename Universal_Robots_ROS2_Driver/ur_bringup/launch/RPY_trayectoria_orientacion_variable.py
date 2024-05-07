@@ -1,3 +1,7 @@
+#ESTE PROGRAMA SE REALIZÓ INICIALMENTE PARA CONTROLAR EL UR LEYENDO POSICIONES EN ANGULOS DE EULER.
+#FINALMENTE SE DESCARTÓ ESTA OPCIÓN POR ACUERDO CON LOS ENCARGADOS DEL SLICER
+
+#EL UR SOLO ADMITE ORIENTACIONES EN FORMATO DE CUATERIONES POR LO QUE ES NECESARIO REALIZAR UNA TRANSFORMACION DE EULER A CUATERIONES
 import rclpy
 import math
 from rclpy.node import Node
@@ -6,8 +10,9 @@ from moveit_msgs.srv import GetPositionIK
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from builtin_interfaces.msg import Duration
 from sensor_msgs.msg import JointState
-from scipy.spatial.transform import Rotation as R
+from scipy.spatial.transform import Rotation as R   #ESTO ES NECESARIO PARA PODER REALIZAR LA TRANSFORMACION MENCIONADA ANTERIORMENTE
 
+#ESTAS DOS LIBRERIAS SE INVESTIGARON PERO NO SE PUDIERON USAR YA QUE DABAN PROBLEMAS SOBRE LA DEFINICION DE MÉTODO
 import tf2_py
 import tf2_ros
 import csv
@@ -139,7 +144,7 @@ def main(args=None):
         goal_names.header.stamp = node.get_clock().now().to_msg()
         goal_names.pose.position.x, goal_names.pose.position.y, goal_names.pose.position.z, roll, pitch, yaw = position
 
-        # Convertir ángulos de Euler (roll, pitch, yaw) a cuaternión
+        # Convertir ángulos de Euler (roll, pitch, yaw) a quaternión
         #quaternion = tf2_py.Quaternion.roll_pitch_yaw_to_quaternion(roll, pitch, yaw)
         r = R.from_euler('xyz', [roll, pitch, yaw], degrees=False)
     

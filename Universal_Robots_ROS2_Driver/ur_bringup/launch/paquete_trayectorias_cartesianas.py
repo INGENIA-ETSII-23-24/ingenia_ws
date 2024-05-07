@@ -1,3 +1,5 @@
+#AQUI SE PUEDEN ENCONTRAR DIFETENTES TRAYECTORIAS CREADAS POR MIGUEL LERIN PARA PODER ESCRIBIRLAS EN UN .CSV Y REALIZAR DISTINTAS PRUEBAS CON EL UR
+
 # Este paquete permite trazar y representar trayectorias cartesianas sencillas devolviendo sus coordenadas cartesianas
 
 #  Se importan las librerias necesarias
