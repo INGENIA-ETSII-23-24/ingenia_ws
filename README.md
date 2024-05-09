@@ -35,13 +35,13 @@ Todos los programas realizados se han guardado en la carpeta de launch del paque
 
 La cronología de los programas del proyecto en el curso 2023/2024 es la siguiente:  
 
-1) [adela.py](./Universal_Robots_ROS2_Driver/ur_bringup/adela.py) Primer intento de comunicación con el robot a través de ROS. Se ejecuta cada punto de la trayectoria definido en un archivo .csv, pero bloqueando manualmente la publicación de cada punto cada 10 ms.
+1) [adela.py](./Universal_Robots_ROS2_Driver/ur_bringup/launch/adela.py) Primer intento de comunicación con el robot a través de ROS. Se ejecuta cada punto de la trayectoria definido en un archivo .csv, pero bloqueando manualmente la publicación de cada punto cada 10 ms.
 
-2) [salsa_secreta.py](./Universal_Robots_ROS2_Driver/ur_bringup/salsa_secreta.py) En este segundo intento se elimina el bloqueo para cada punto de la trayectoria, implementando una función AjustarTiempo para adecuar la velocidad para cada par de puntos de la trayectoria.
+2) [salsa_secreta.py](./Universal_Robots_ROS2_Driver/ur_bringup/launch/salsa_secreta.py) En este segundo intento se elimina el bloqueo para cada punto de la trayectoria, implementando una función AjustarTiempo para adecuar la velocidad para cada par de puntos de la trayectoria.
    
-3) [cartesian_path_node](./Universal_Robots_ROS2_Driver/ur_bringup/cartesian_path_node.py) En este intento se cierra un bucle de control con un suscriptor al estado del robot. Así, el programa espera recibir una señal de control del robot para cada punto objetivo de la trayectoria hasta que haya alcanzado el punto anterior.
+3) [cartesian_path_node](./Universal_Robots_ROS2_Driver/ur_bringup/launch/cartesian_path_node.py) En este intento se cierra un bucle de control con un suscriptor al estado del robot. Así, el programa espera recibir una señal de control del robot para cada punto objetivo de la trayectoria hasta que haya alcanzado el punto anterior.
 
-4) [moveJ.py](./Universal_Robots_ROS2_Driver/ur_bringup/moveJ.py) Este programa es la versión final de lo que estábamos haciendo. El problema de las versiones anteriores era que había una pausa notable para cada punto. Para solucionar esto, se publica todos los puntos de la trayectoria al mismo tiempo. Funciona perfectamente, pero para muchos puntos tarda mucho tiempo en iniciar el programa, incluso en muchas ocasiones se queda pillado.
+4) [moveJ.py](./Universal_Robots_ROS2_Driver/ur_bringup/launch/moveJ.py) Este programa es la versión final de lo que estábamos haciendo. El problema de las versiones anteriores era que había una pausa notable para cada punto. Para solucionar esto, se publica todos los puntos de la trayectoria al mismo tiempo. Funciona perfectamente, pero para muchos puntos tarda mucho tiempo en iniciar el programa, incluso en muchas ocasiones se queda pillado.
 
 5) [moveL.py](./Universal_Robots_ROS2_Driver/ur_bringup/moveL.py) Este programa es el programa recomendado para las pruebas. En este porgrama se utiliza otro servicio para el cálculo de la trayectoria (GetCartesianPath.srv) y una acción para la ejecución de la trayectoria (ExecuteTrajectory), en vez de utilizar el topic. Este programa ha dado los mejores resultados en las pruebas, aunque presenta algunos problemas.
 
